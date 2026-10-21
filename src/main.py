@@ -13,21 +13,20 @@ def main():
     parser.add_argument("algoritma", choices=["hc", "sa", "gen"])
     parser.add_argument("--seed", type=int)
     output = parser.add_mutually_exclusive_group()
-    output.add_argument("--output")
+    output.add_argument("--output", type=Path)
     output.add_argument("--output-dir", type=Path)
-    #param for genetic run
+    # Parameter khusus Genetic Algorithm
     parser.add_argument("--population", type=int, default=50)
     parser.add_argument("--iterations", type=int, default=100)
     args = parser.parse_args()
-    if args.output_dir and args.algoritma != "sa":
+    if args.output_dir is not None and args.algoritma != "sa":
         parser.error("--output-dir hanya untuk SA")
 
-    # Gunakan seed agar hasil random bisa direproduksi
     random.seed(args.seed)
-    # Data dibaca relatif terhadap lokasi file main.py
     data_path = Path(__file__).parent / "data" / "data.json"
     kapal, daftar_kendaraan = load_data(data_path)
-    initial_state = random_initial_state(daftar_kendaraan, kapal)
+    if args.algoritma in ("hc", "sa"):
+        initial_state = random_initial_state(daftar_kendaraan, kapal)
 
     if args.algoritma == "hc":
         algoritma = HC_steepest(initial_state, daftar_kendaraan, kapal)
@@ -43,22 +42,18 @@ def main():
     algoritma.run()
     print(f"Nilai akhir: {algoritma.final_value} | Durasi: {algoritma.duration:.2f} detik")
 
-    if args.output_dir:
+    if args.output_dir is not None:
         simpan_hasil_sa(algoritma, daftar_kendaraan, kapal, args.output_dir, args.seed)
         print(f"Output disimpan ke {args.output_dir}")
         return
 
-    #GA membuat populasi sendiri, initial state = individu terbaik dari populasi asal
+    # GA menggunakan individu terbaik dari populasi awal untuk visualisasi
     if args.algoritma == "gen":
         initial_state = algoritma.initial_state
-        pop_size = algoritma.pop_size
-    else:
-        pop_size = None
-    
-    # stuck_count hanya digunakan oleh Simulated Annealing
-    stuck_count = algoritma.stuck_count if args.algoritma == "sa" else None
+
+    rejected_moves = algoritma.rejected_moves if args.algoritma == "sa" else None
     fig = plot_hasil(initial_state, algoritma.final_state, daftar_kendaraan, kapal,
-                     algoritma.history, nama, algoritma.duration, stuck_count)
+                     algoritma.history, nama, algoritma.duration, rejected_moves)
     if args.output:
         fig.savefig(args.output, dpi=150)
         print(f"Gambar disimpan ke {args.output}")

@@ -19,7 +19,6 @@ def plot_state(ax, state, daftar_kendaraan, kapal, judul):
             continue
 
         x, y, arah = posisi
-        # Tukar panjang dan lebar untuk orientasi vertikal
         if arah == "H":
             ukuran_x, ukuran_y = kendaraan.p, kendaraan.l
         else:
@@ -46,7 +45,7 @@ def plot_state(ax, state, daftar_kendaraan, kapal, judul):
     ax.set_xlabel("Tidak diangkut: " + daftar_id, fontsize=8)
 
 def plot_hasil(initial_state, final_state, daftar_kendaraan, kapal,
-               history, nama_algoritma, duration, stuck_count=None, pop_size = None):
+               history, nama_algoritma, duration, rejected_moves=None):
     fig, axes = plt.subplots(2, 2, figsize=(14, 10), layout="constrained")
     plot_state(axes[0, 0], initial_state, daftar_kendaraan, kapal, "Initial state")
     plot_state(axes[0, 1], final_state, daftar_kendaraan, kapal, "Final state")
@@ -54,8 +53,8 @@ def plot_hasil(initial_state, final_state, daftar_kendaraan, kapal,
     plot_history(axes[1], history)
 
     ringkasan = f"Durasi: {duration:.2f} detik\nIterasi: {history[-1]['iterasi']}"
-    if stuck_count is not None:
-        ringkasan += f"\nLangkah lebih buruk ditolak: {stuck_count}"
+    if rejected_moves is not None:
+        ringkasan += f"\nLangkah lebih buruk ditolak: {rejected_moves}"
     fig.suptitle(nama_algoritma + "\n" + ringkasan)
 
     return fig
@@ -64,9 +63,8 @@ def plot_history(axes, history):
     iterasi = [h["iterasi"] for h in history]
     value = [h["value"] for h in history]
 
-    #GA : history memiliki "avg" : rata-rata populasi, "value" : max populasi
-    ada_avg = any("avg" in h for h in history)
-    if ada_avg:
+    # Pada GA, value menyimpan nilai maksimum dan avg nilai rata-rata populasi
+    if "avg" in history[0]:
         axes[0].plot(iterasi, value, marker=".", markersize=3, label="Maksimum populasi")
         axes[0].plot(iterasi, [h["avg"] for h in history], linewidth=1, label="Rata-rata populasi")
         axes[0].legend()
@@ -77,12 +75,11 @@ def plot_history(axes, history):
         axes[0].set_ylabel("Value")
         axes[0].grid(alpha=0.25)
 
-    # Grafik probabilitas hanya tersedia untuk Simulated Annealing
     history_probability = [h for h in history if h.get("probability") is not None]
     if history_probability:
         axes[1].plot([h["iterasi"] for h in history_probability],
                         [h["probability"] for h in history_probability], linewidth=0.8)
-        axes[1].set_title("Probabilitas penerimaan neighbor")
+        axes[1].set_title("Probabilitas penerimaan kandidat")
         axes[1].set_xlabel("Iterasi")
         axes[1].set_ylabel("Probabilitas")
         axes[1].set_ylim(-0.05, 1.05)
@@ -91,6 +88,7 @@ def plot_history(axes, history):
         axes[1].axis("off")
 
 def simpan_state(state, daftar_kendaraan, kapal, judul, path):
+    """Simpan gambar state dan kembalikan ringkasan teksnya."""
     fig, ax = plt.subplots(figsize=(14, 8), layout="constrained")
     plot_state(ax, state, daftar_kendaraan, kapal, judul)
     fig.savefig(path, dpi=150, bbox_inches="tight")
@@ -131,7 +129,7 @@ def simpan_hasil_sa(sa, daftar_kendaraan, kapal, folder, seed):
         "final_value": sa.final_value,
         "duration": sa.duration,
         "iteration_count": sa.iteration_count,
-        "rejected_worse_moves": sa.stuck_count,
+        "rejected_worse_moves": sa.rejected_moves,
         "history": sa.history
     }
     with open(folder / "SA.json", "w", encoding="utf-8") as file:
@@ -150,7 +148,7 @@ def simpan_hasil_sa(sa, daftar_kendaraan, kapal, folder, seed):
         f"Nilai akhir: {sa.final_value}\n"
         f"Durasi pencarian: {sa.duration:.4f} detik\n"
         f"Iterasi: {sa.iteration_count}\n"
-        f"Langkah lebih buruk ditolak: {sa.stuck_count}\n\n"
+        f"Langkah lebih buruk ditolak: {sa.rejected_moves}\n\n"
     )
     (folder / "SA_info.txt").write_text(ringkasan + awal + "\n\n" + akhir + "\n",
                                        encoding="utf-8")
