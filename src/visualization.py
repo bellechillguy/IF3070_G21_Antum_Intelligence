@@ -67,7 +67,7 @@ def plot_hasil(initial_state, final_state, daftar_kendaraan, kapal,
 
     ringkasan = f"Durasi: {duration:.2f} detik\nIterasi: {iterasi[-1]}"
     if stuck_count is not None:
-        ringkasan += f"\nStuck: {stuck_count} iterasi"
+        ringkasan += f"\nLangkah lebih buruk ditolak: {stuck_count}"
     fig.suptitle(nama_algoritma + "\n" + ringkasan)
 
     # Grafik probabilitas hanya tersedia untuk Simulated Annealing

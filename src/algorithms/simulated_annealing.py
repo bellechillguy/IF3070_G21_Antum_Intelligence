@@ -22,7 +22,7 @@ class SimulatedAnnealing:
         self.final_state = None
         self.final_value = None
         self.history = []
-        self.stuck_count = 0
+        self.stuck_count = 0 # Jumlah langkah lebih buruk yang ditolak
 
     def run(self):
         self.history = []
@@ -33,11 +33,9 @@ class SimulatedAnnealing:
         current_state = self.initial_state[:]
         current_value = objective_function(current_state, self.daftar_kendaraan, self.kapal)
         temperature = self.initial_temperature
-        local_optimum = None
         self.history.append({
             "iterasi": self.iteration_count,
             "value": current_value,
-            "temperature": temperature,
             "probability": None
         })
 
@@ -50,18 +48,6 @@ class SimulatedAnnealing:
             neighbor_value = objective_function(neighbor, self.daftar_kendaraan, self.kapal)
             delta_e = neighbor_value - current_value
 
-            # Local optimum termasuk plateau
-            if local_optimum is None:
-                if delta_e > 0:
-                    local_optimum = False
-                else:
-                    local_optimum = not any(
-                        objective_function(n, self.daftar_kendaraan, self.kapal) > current_value
-                        for n in neighbors
-                    )
-            if local_optimum:
-                self.stuck_count += 1
-
             if delta_e >= 0:
                 probability = 1.0
             else:
@@ -70,13 +56,13 @@ class SimulatedAnnealing:
             if delta_e >= 0 or random.random() < probability:
                 current_state = neighbor
                 current_value = neighbor_value
-                local_optimum = None
+            else:
+                self.stuck_count += 1
 
             self.iteration_count += 1
             self.history.append({
                 "iterasi": self.iteration_count,
                 "value": current_value,
-                "temperature": temperature,
                 "probability": probability
             })
             temperature *= self.cooling_rate
