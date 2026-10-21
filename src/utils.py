@@ -48,6 +48,18 @@ def objective_function(state, daftar_kendaraan, kapal):
     nilai_objektif = total_fee - penalti
     return nilai_objektif
 
+def objective_function_jumlah(state, daftar_kendaraan, kapal):
+    # Utamakan jumlah kendaraan yang diangkut, dengan penalti yang sama
+    jumlah_kendaraan = sum(posisi is not None for posisi in state)
+    bobot_penalti = 1000
+
+    pelanggaran_kapasitas = cek_pelanggaran_kapasitas(state, daftar_kendaraan, kapal)
+    pelanggaran_overlap = cek_pelanggaran_overlap(state, daftar_kendaraan, kapal)
+    pelanggaran_keluar = cek_pelanggaran_keluar_kapal(state, daftar_kendaraan, kapal)
+    penalti = bobot_penalti * (pelanggaran_kapasitas + pelanggaran_overlap + pelanggaran_keluar)
+
+    return jumlah_kendaraan - penalti
+
 def hitung_fee(state, daftar_kendaraan):
     '''
     Menghitung total fee yang didapatkan Kapal
