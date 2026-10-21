@@ -1,5 +1,6 @@
 import time
-from utils import objective_function, get_neighbors
+from objective_function import objective_function
+from utils import get_neighbors
 
 class HC_steepest:
     '''

@@ -1,8 +1,8 @@
 import json
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
-from utils import (objective_function, hitung_fee, cek_pelanggaran_kapasitas,
-                   cek_pelanggaran_overlap, cek_pelanggaran_keluar_kapal)
+from objective_function import (objective_function, hitung_fee, cek_pelanggaran_kapasitas,
+                                cek_pelanggaran_overlap, cek_pelanggaran_keluar_kapal)
 
 def plot_state(ax, state, daftar_kendaraan, kapal, judul):
     warna = plt.get_cmap("tab20")

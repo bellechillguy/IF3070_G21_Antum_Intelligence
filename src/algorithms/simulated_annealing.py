@@ -1,7 +1,8 @@
 import math
 import random
 import time
-from utils import objective_function, get_neighbors
+from objective_function import objective_function
+from utils import get_neighbors
 
 class SimulatedAnnealing:
     def __init__(self, initial_state, daftar_kendaraan, kapal,

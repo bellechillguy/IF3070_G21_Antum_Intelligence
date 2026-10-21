@@ -1,7 +1,8 @@
 import math
 import random
 import time
-from utils import objective_function, random_initial_state
+from objective_function import objective_function
+from utils import random_initial_state
 
 def _ukuran(kendaraan, arah):
     """Ukuran (x, y) kendaraan sesuai arah."""
