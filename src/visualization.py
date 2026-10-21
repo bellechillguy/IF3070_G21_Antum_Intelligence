@@ -44,18 +44,26 @@ def plot_state(ax, state, daftar_kendaraan, kapal, judul):
     ax.set_xlabel("Tidak diangkut: " + daftar_id, fontsize=8)
 
 def plot_hasil(initial_state, final_state, daftar_kendaraan, kapal,
-               history, nama_algoritma, duration, stuck_count=None):
+               history, nama_algoritma, duration, stuck_count=None, pop_size = None):
     fig, axes = plt.subplots(2, 2, figsize=(14, 10), layout="constrained")
     plot_state(axes[0, 0], initial_state, daftar_kendaraan, kapal, "Initial state")
     plot_state(axes[0, 1], final_state, daftar_kendaraan, kapal, "Final state")
 
     iterasi = [h["iterasi"] for h in history]
     value = [h["value"] for h in history]
-    axes[1, 0].plot(iterasi, value, marker=".", markersize=3)
-    axes[1, 0].set_title("Perubahan nilai objective")
-    axes[1, 0].set_xlabel("Iterasi")
-    axes[1, 0].set_ylabel("Value")
-    axes[1, 0].grid(alpha=0.25)
+
+    #GA : history memiliki "avg" : rata-rata populasi, "value" : max populasi
+    ada_avg = any("avg" in h for h in history)
+    if ada_avg:
+        axes[1, 0].plot(iterasi, value, marker=".", markersize=3, label="Maksimum populasi")
+        axes[1, 0].plot(iterasi, [h["avg"] for h in history], linewidth=1, label="Rata-rata populasi")
+        axes[1, 0].legend()
+    else:
+        axes[1, 0].plot(iterasi, value, marker=".", markersize=3)
+        axes[1, 0].set_title("Perubahan nilai objective")
+        axes[1, 0].set_xlabel("Iterasi")
+        axes[1, 0].set_ylabel("Value")
+        axes[1, 0].grid(alpha=0.25)
 
     ringkasan = f"Durasi: {duration:.2f} detik\nIterasi: {iterasi[-1]}"
     if stuck_count is not None:
