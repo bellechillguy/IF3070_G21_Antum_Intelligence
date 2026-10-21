@@ -1,0 +1,9649 @@
+{
+  "seed": 63,
+  "parameters": {
+    "initial_temperature": 1000,
+    "cooling_rate": 0.995,
+    "minimum_temperature": 0.1
+  },
+  "kapal": {
+    "dl": 10,
+    "dp": 20,
+    "kapasitas": 100
+  },
+  "kendaraan": [
+    {
+      "id": "KDR001",
+      "p": 2,
+      "l": 1,
+      "berat": 4,
+      "fee": 50,
+      "ETA": 1
+    },
+    {
+      "id": "KDR002",
+      "p": 3,
+      "l": 2,
+      "berat": 5,
+      "fee": 70,
+      "ETA": 3
+    },
+    {
+      "id": "KDR003",
+      "p": 4,
+      "l": 3,
+      "berat": 7,
+      "fee": 100,
+      "ETA": 6
+    },
+    {
+      "id": "KDR004",
+      "p": 5,
+      "l": 4,
+      "berat": 6,
+      "fee": 80,
+      "ETA": 3
+    },
+    {
+      "id": "KDR005",
+      "p": 6,
+      "l": 5,
+      "berat": 5,
+      "fee": 80,
+      "ETA": 1
+    },
+    {
+      "id": "KDR006",
+      "p": 3,
+      "l": 1,
+      "berat": 7,
+      "fee": 90,
+      "ETA": 1
+    },
+    {
+      "id": "KDR007",
+      "p": 4,
+      "l": 2,
+      "berat": 8,
+      "fee": 80,
+      "ETA": 4
+    },
+    {
+      "id": "KDR008",
+      "p": 5,
+      "l": 3,
+      "berat": 4,
+      "fee": 20,
+      "ETA": 3
+    },
+    {
+      "id": "KDR009",
+      "p": 6,
+      "l": 4,
+      "berat": 5,
+      "fee": 70,
+      "ETA": 6
+    },
+    {
+      "id": "KDR010",
+      "p": 4,
+      "l": 1,
+      "berat": 7,
+      "fee": 60,
+      "ETA": 4
+    },
+    {
+      "id": "KDR011",
+      "p": 5,
+      "l": 2,
+      "berat": 8,
+      "fee": 100,
+      "ETA": 2
+    },
+    {
+      "id": "KDR012",
+      "p": 6,
+      "l": 3,
+      "berat": 4,
+      "fee": 90,
+      "ETA": 6
+    },
+    {
+      "id": "KDR013",
+      "p": 2,
+      "l": 1,
+      "berat": 3,
+      "fee": 60,
+      "ETA": 2
+    },
+    {
+      "id": "KDR014",
+      "p": 3,
+      "l": 2,
+      "berat": 5,
+      "fee": 70,
+      "ETA": 2
+    },
+    {
+      "id": "KDR015",
+      "p": 4,
+      "l": 3,
+      "berat": 6,
+      "fee": 60,
+      "ETA": 7
+    },
+    {
+      "id": "KDR016",
+      "p": 5,
+      "l": 4,
+      "berat": 7,
+      "fee": 90,
+      "ETA": 4
+    },
+    {
+      "id": "KDR017",
+      "p": 6,
+      "l": 5,
+      "berat": 9,
+      "fee": 30,
+      "ETA": 5
+    },
+    {
+      "id": "KDR018",
+      "p": 3,
+      "l": 1,
+      "berat": 2,
+      "fee": 60,
+      "ETA": 5
+    },
+    {
+      "id": "KDR019",
+      "p": 4,
+      "l": 2,
+      "berat": 4,
+      "fee": 20,
+      "ETA": 7
+    },
+    {
+      "id": "KDR020",
+      "p": 5,
+      "l": 3,
+      "berat": 6,
+      "fee": 80,
+      "ETA": 3
+    },
+    {
+      "id": "KDR021",
+      "p": 6,
+      "l": 4,
+      "berat": 7,
+      "fee": 70,
+      "ETA": 6
+    },
+    {
+      "id": "KDR022",
+      "p": 4,
+      "l": 1,
+      "berat": 9,
+      "fee": 40,
+      "ETA": 2
+    },
+    {
+      "id": "KDR023",
+      "p": 5,
+      "l": 2,
+      "berat": 8,
+      "fee": 90,
+      "ETA": 1
+    },
+    {
+      "id": "KDR024",
+      "p": 6,
+      "l": 3,
+      "berat": 3,
+      "fee": 60,
+      "ETA": 1
+    },
+    {
+      "id": "KDR025",
+      "p": 1,
+      "l": 1,
+      "berat": 2,
+      "fee": 40,
+      "ETA": 1
+    },
+    {
+      "id": "KDR026",
+      "p": 2,
+      "l": 2,
+      "berat": 5,
+      "fee": 30,
+      "ETA": 1
+    },
+    {
+      "id": "KDR027",
+      "p": 3,
+      "l": 3,
+      "berat": 7,
+      "fee": 100,
+      "ETA": 1
+    },
+    {
+      "id": "KDR028",
+      "p": 4,
+      "l": 4,
+      "berat": 4,
+      "fee": 60,
+      "ETA": 1
+    },
+    {
+      "id": "KDR029",
+      "p": 5,
+      "l": 5,
+      "berat": 6,
+      "fee": 40,
+      "ETA": 1
+    },
+    {
+      "id": "KDR030",
+      "p": 6,
+      "l": 6,
+      "berat": 9,
+      "fee": 80,
+      "ETA": 1
+    }
+  ],
+  "initial_state": [
+    null,
+    null,
+    [
+      15,
+      1,
+      "H"
+    ],
+    [
+      2,
+      3,
+      "H"
+    ],
+    null,
+    [
+      19,
+      0,
+      "V"
+    ],
+    [
+      4,
+      5,
+      "V"
+    ],
+    null,
+    [
+      1,
+      9,
+      "V"
+    ],
+    null,
+    [
+      13,
+      6,
+      "H"
+    ],
+    null,
+    null,
+    [
+      1,
+      5,
+      "H"
+    ],
+    [
+      3,
+      0,
+      "V"
+    ],
+    [
+      12,
+      7,
+      "V"
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+      17,
+      8,
+      "V"
+    ],
+    null,
+    null,
+    [
+      14,
+      2,
+      "V"
+    ],
+    [
+      6,
+      6,
+      "H"
+    ],
+    [
+      4,
+      4,
+      "H"
+    ],
+    null,
+    [
+      13,
+      2,
+      "H"
+    ],
+    null,
+    null
+  ],
+  "final_state": [
+    [
+      2,
+      0,
+      "H"
+    ],
+    [
+      12,
+      1,
+      "H"
+    ],
+    [
+      4,
+      4,
+      "V"
+    ],
+    [
+      0,
+      3,
+      "V"
+    ],
+    null,
+    [
+      15,
+      9,
+      "H"
+    ],
+    [
+      5,
+      0,
+      "V"
+    ],
+    null,
+    null,
+    null,
+    [
+      15,
+      2,
+      "V"
+    ],
+    null,
+    [
+      8,
+      0,
+      "H"
+    ],
+    [
+      17,
+      1,
+      "H"
+    ],
+    null,
+    null,
+    null,
+    [
+      9,
+      7,
+      "V"
+    ],
+    [
+      1,
+      8,
+      "H"
+    ],
+    [
+      7,
+      1,
+      "V"
+    ],
+    null,
+    [
+      8,
+      6,
+      "V"
+    ],
+    [
+      13,
+      7,
+      "H"
+    ],
+    null,
+    [
+      18,
+      4,
+      "V"
+    ],
+    [
+      15,
+      0,
+      "H"
+    ],
+    [
+      10,
+      7,
+      "V"
+    ],
+    [
+      11,
+      3,
+      "H"
+    ],
+    null,
+    null
+  ],
+  "initial_value": -86000,
+  "final_value": 1220,
+  "duration": 8.928225040435791,
+  "iteration_count": 1838,
+  "rejected_worse_moves": 1704,
+  "history": [
+    {
+      "iterasi": 0,
+      "value": -86000,
+      "probability": null
+    },
+    {
+      "iterasi": 1,
+      "value": -86000,
+      "probability": 2.755520100292467e-13
+    },
+    {
+      "iterasi": 2,
+      "value": -82000,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 3,
+      "value": -82000,
+      "probability": 1.62076939330762e-05
+    },
+    {
+      "iterasi": 4,
+      "value": -82000,
+      "probability": 0.017592158560123902
+    },
+    {
+      "iterasi": 5,
+      "value": -82000,
+      "probability": 0.3605038934952203
+    },
+    {
+      "iterasi": 6,
+      "value": -82000,
+      "probability": 0.04957038510332976
+    },
+    {
+      "iterasi": 7,
+      "value": -82000,
+      "probability": 4.438634955010124e-06
+    },
+    {
+      "iterasi": 8,
+      "value": -82000,
+      "probability": 0.13408536529095355
+    },
+    {
+      "iterasi": 9,
+      "value": -82000,
+      "probability": 0.1247017469085959
+    },
+    {
+      "iterasi": 10,
+      "value": -82000,
+      "probability": 0.0006741225421215654
+    },
+    {
+      "iterasi": 11,
+      "value": -82000,
+      "probability": 0.014911660132513877
+    },
+    {
+      "iterasi": 12,
+      "value": -82000,
+      "probability": 5.7269228377364915e-09
+    },
+    {
+      "iterasi": 13,
+      "value": -64000,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 14,
+      "value": -64000,
+      "probability": 0.1247679817246622
+    },
+    {
+      "iterasi": 15,
+      "value": -64000,
+      "probability": 5.027025696665716e-10
+    },
+    {
+      "iterasi": 16,
+      "value": -64000,
+      "probability": 1.519479132166418e-10
+    },
+    {
+      "iterasi": 17,
+      "value": -61000,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 18,
+      "value": -61960,
+      "probability": 0.35155424715467776
+    },
+    {
+      "iterasi": 19,
+      "value": -61960,
+      "probability": 5.2758169755876326e-05
+    },
+    {
+      "iterasi": 20,
+      "value": -60960,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 21,
+      "value": -60910,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 22,
+      "value": -60910,
+      "probability": 0.00014113334237390605
+    },
+    {
+      "iterasi": 23,
+      "value": -49990,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 24,
+      "value": -49990,
+      "probability": 0.11337409216298301
+    },
+    {
+      "iterasi": 25,
+      "value": -49990,
+      "probability": 0.34639826656402245
+    },
+    {
+      "iterasi": 26,
+      "value": -49990,
+      "probability": 0.0012461799653412954
+    },
+    {
+      "iterasi": 27,
+      "value": -49990,
+      "probability": 3.525870131639888e-05
+    },
+    {
+      "iterasi": 28,
+      "value": -49990,
+      "probability": 0.0003665308861029906
+    },
+    {
+      "iterasi": 29,
+      "value": -49990,
+      "probability": 0.1001230223778435
+    },
+    {
+      "iterasi": 30,
+      "value": -49990,
+      "probability": 9.718571357253475e-06
+    },
+    {
+      "iterasi": 31,
+      "value": -36990,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 32,
+      "value": -36990,
+      "probability": 0.0009040081479455104
+    },
+    {
+      "iterasi": 33,
+      "value": -37970,
+      "probability": 0.31647776215289647
+    },
+    {
+      "iterasi": 34,
+      "value": -37970,
+      "probability": 2.424990141399424e-07
+    },
+    {
+      "iterasi": 35,
+      "value": -37970,
+      "probability": 0.0933293355926774
+    },
+    {
+      "iterasi": 36,
+      "value": -37970,
+      "probability": 0.0025828903227209286
+    },
+    {
+      "iterasi": 37,
+      "value": -37970,
+      "probability": 0.027508118306912
+    },
+    {
+      "iterasi": 38,
+      "value": -37970,
+      "probability": 0.00021900008473967793
+    },
+    {
+      "iterasi": 39,
+      "value": -37970,
+      "probability": 1.7016877016965371e-06
+    },
+    {
+      "iterasi": 40,
+      "value": -37970,
+      "probability": 1.5535601940608139e-06
+    },
+    {
+      "iterasi": 41,
+      "value": -37970,
+      "probability": 0.0001927513394870937
+    },
+    {
+      "iterasi": 42,
+      "value": -37970,
+      "probability": 0.02703075654356343
+    },
+    {
+      "iterasi": 43,
+      "value": -37970,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 44,
+      "value": -37910,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 45,
+      "value": -37910,
+      "probability": 1.2224311361907868e-06
+    },
+    {
+      "iterasi": 46,
+      "value": -37910,
+      "probability": 0.023304958906330046
+    },
+    {
+      "iterasi": 47,
+      "value": -37910,
+      "probability": 1.3395420645876551e-05
+    },
+    {
+      "iterasi": 48,
+      "value": -37910,
+      "probability": 0.07955479752246397
+    },
+    {
+      "iterasi": 49,
+      "value": -37910,
+      "probability": 0.00013583049959965072
+    },
+    {
+      "iterasi": 50,
+      "value": -37910,
+      "probability": 0.27848064596634664
+    },
+    {
+      "iterasi": 51,
+      "value": -35910,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 52,
+      "value": -35910,
+      "probability": 5.2581092413875745e-08
+    },
+    {
+      "iterasi": 53,
+      "value": -35910,
+      "probability": 7.003287498024181e-07
+    },
+    {
+      "iterasi": 54,
+      "value": -35910,
+      "probability": 0.0014714773536988893
+    },
+    {
+      "iterasi": 55,
+      "value": -35910,
+      "probability": 7.522083315438639e-06
+    },
+    {
+      "iterasi": 56,
+      "value": -35910,
+      "probability": 0.0015719290117880275
+    },
+    {
+      "iterasi": 57,
+      "value": -35910,
+      "probability": 0.00010771625496742656
+    },
+    {
+      "iterasi": 58,
+      "value": -35910,
+      "probability": 3.413946207208605e-08
+    },
+    {
+      "iterasi": 59,
+      "value": -35910,
+      "probability": 6.180865720548197e-13
+    },
+    {
+      "iterasi": 60,
+      "value": -35910,
+      "probability": 0.06800043390077919
+    },
+    {
+      "iterasi": 61,
+      "value": -35910,
+      "probability": 1.3590159133936891e-06
+    },
+    {
+      "iterasi": 62,
+      "value": -35910,
+      "probability": 0.01847142997969416
+    },
+    {
+      "iterasi": 63,
+      "value": -35910,
+      "probability": 0.255512047874254
+    },
+    {
+      "iterasi": 64,
+      "value": -35910,
+      "probability": 0.01774330992487355
+    },
+    {
+      "iterasi": 65,
+      "value": -35910,
+      "probability": 0.0635157613950922
+    },
+    {
+      "iterasi": 66,
+      "value": -35910,
+      "probability": 0.01703698658709423
+    },
+    {
+      "iterasi": 67,
+      "value": -27940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 68,
+      "value": -27940,
+      "probability": 0.0002493244899095871
+    },
+    {
+      "iterasi": 69,
+      "value": -28940,
+      "probability": 0.24508595266163222
+    },
+    {
+      "iterasi": 70,
+      "value": -28940,
+      "probability": 0.014412821396574191
+    },
+    {
+      "iterasi": 71,
+      "value": -28940,
+      "probability": 1.0727492151067564e-08
+    },
+    {
+      "iterasi": 72,
+      "value": -28940,
+      "probability": 0.23991965315352995
+    },
+    {
+      "iterasi": 73,
+      "value": -28940,
+      "probability": 0.00020198398036400038
+    },
+    {
+      "iterasi": 74,
+      "value": -28940,
+      "probability": 0.0031280861450809563
+    },
+    {
+      "iterasi": 75,
+      "value": -28940,
+      "probability": 8.840954384048261e-16
+    },
+    {
+      "iterasi": 76,
+      "value": -28940,
+      "probability": 1.731266841646806e-16
+    },
+    {
+      "iterasi": 77,
+      "value": -28940,
+      "probability": 9.40083167346676e-13
+    },
+    {
+      "iterasi": 78,
+      "value": -28940,
+      "probability": 4.5971472836878404e-07
+    },
+    {
+      "iterasi": 79,
+      "value": -28940,
+      "probability": 0.011851757310600054
+    },
+    {
+      "iterasi": 80,
+      "value": -28940,
+      "probability": 0.051215589682425885
+    },
+    {
+      "iterasi": 81,
+      "value": -28940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 82,
+      "value": -28940,
+      "probability": 7.273698120814359e-10
+    },
+    {
+      "iterasi": 83,
+      "value": -28940,
+      "probability": 7.023766294523187e-08
+    },
+    {
+      "iterasi": 84,
+      "value": -28940,
+      "probability": 0.00254701031411845
+    },
+    {
+      "iterasi": 85,
+      "value": -28940,
+      "probability": 6.25293249885754e-10
+    },
+    {
+      "iterasi": 86,
+      "value": -28940,
+      "probability": 0.046773249408464425
+    },
+    {
+      "iterasi": 87,
+      "value": -28940,
+      "probability": 0.0023266379190361184
+    },
+    {
+      "iterasi": 88,
+      "value": -28940,
+      "probability": 1.9865058272915516e-05
+    },
+    {
+      "iterasi": 89,
+      "value": -28940,
+      "probability": 1.8813177548121216e-05
+    },
+    {
+      "iterasi": 90,
+      "value": -28940,
+      "probability": 7.830281417893299e-07
+    },
+    {
+      "iterasi": 91,
+      "value": -28940,
+      "probability": 0.043275575515585
+    },
+    {
+      "iterasi": 92,
+      "value": -29940,
+      "probability": 0.206392970002844
+    },
+    {
+      "iterasi": 93,
+      "value": -29940,
+      "probability": 1.5092392623914977e-05
+    },
+    {
+      "iterasi": 94,
+      "value": -29940,
+      "probability": 2.5569890188301003e-17
+    },
+    {
+      "iterasi": 95,
+      "value": -29940,
+      "probability": 6.330192796300836e-07
+    },
+    {
+      "iterasi": 96,
+      "value": -31940,
+      "probability": 0.039960552842898
+    },
+    {
+      "iterasi": 97,
+      "value": -31940,
+      "probability": 0.19829065860478834
+    },
+    {
+      "iterasi": 98,
+      "value": -31940,
+      "probability": 6.920074524003859e-15
+    },
+    {
+      "iterasi": 99,
+      "value": -31940,
+      "probability": 0.03805786697822636
+    },
+    {
+      "iterasi": 100,
+      "value": -31940,
+      "probability": 5.2472649845391896e-05
+    },
+    {
+      "iterasi": 101,
+      "value": -30940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 102,
+      "value": -30940,
+      "probability": 7.633997168512043e-21
+    },
+    {
+      "iterasi": 103,
+      "value": -30940,
+      "probability": 9.704615865759794e-14
+    },
+    {
+      "iterasi": 104,
+      "value": -30940,
+      "probability": 0.0014267081233730137
+    },
+    {
+      "iterasi": 105,
+      "value": -30940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 106,
+      "value": -30940,
+      "probability": 0.0062319911095756
+    },
+    {
+      "iterasi": 107,
+      "value": -30940,
+      "probability": 0.1824658169653414
+    },
+    {
+      "iterasi": 108,
+      "value": -27940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 109,
+      "value": -27940,
+      "probability": 0.0001856469163891983
+    },
+    {
+      "iterasi": 110,
+      "value": -27940,
+      "probability": 0.2006727311458446
+    },
+    {
+      "iterasi": 111,
+      "value": -27940,
+      "probability": 0.00020252145259142527
+    },
+    {
+      "iterasi": 112,
+      "value": -27940,
+      "probability": 0.1747554513047612
+    },
+    {
+      "iterasi": 113,
+      "value": -26940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 114,
+      "value": -26940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 115,
+      "value": -26940,
+      "probability": 3.4158855990382965e-12
+    },
+    {
+      "iterasi": 116,
+      "value": -24940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 117,
+      "value": -24940,
+      "probability": 2.3940476887928717e-12
+    },
+    {
+      "iterasi": 118,
+      "value": -24940,
+      "probability": 1.0868285940229893e-07
+    },
+    {
+      "iterasi": 119,
+      "value": -24940,
+      "probability": 2.224274089219009e-05
+    },
+    {
+      "iterasi": 120,
+      "value": -24940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 121,
+      "value": -24940,
+      "probability": 0.004191948721771872
+    },
+    {
+      "iterasi": 122,
+      "value": -24940,
+      "probability": 0.025525770996537824
+    },
+    {
+      "iterasi": 123,
+      "value": -24940,
+      "probability": 4.195504211668319e-15
+    },
+    {
+      "iterasi": 124,
+      "value": -24940,
+      "probability": 0.15684265654756643
+    },
+    {
+      "iterasi": 125,
+      "value": -24940,
+      "probability": 5.482305578083942e-08
+    },
+    {
+      "iterasi": 126,
+      "value": -24940,
+      "probability": 0.004081621927539883
+    },
+    {
+      "iterasi": 127,
+      "value": -24940,
+      "probability": 7.908290817906518e-09
+    },
+    {
+      "iterasi": 128,
+      "value": -24940,
+      "probability": 3.750167972642058e-12
+    },
+    {
+      "iterasi": 129,
+      "value": -24940,
+      "probability": 0.1496392552538275
+    },
+    {
+      "iterasi": 130,
+      "value": -24940,
+      "probability": 0.00048261426335182816
+    },
+    {
+      "iterasi": 131,
+      "value": -24940,
+      "probability": 0.000531206606617224
+    },
+    {
+      "iterasi": 132,
+      "value": -24940,
+      "probability": 8.923952868536898e-11
+    },
+    {
+      "iterasi": 133,
+      "value": -22940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 134,
+      "value": -22940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 135,
+      "value": -21940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 136,
+      "value": -17940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 137,
+      "value": -17940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 138,
+      "value": -17940,
+      "probability": 1.1801006755798877e-13
+    },
+    {
+      "iterasi": 139,
+      "value": -17940,
+      "probability": 0.13571893482210648
+    },
+    {
+      "iterasi": 140,
+      "value": -17940,
+      "probability": 0.018053595325564508
+    },
+    {
+      "iterasi": 141,
+      "value": -17940,
+      "probability": 0.002353445120562568
+    },
+    {
+      "iterasi": 142,
+      "value": -17940,
+      "probability": 2.062943722902124e-10
+    },
+    {
+      "iterasi": 143,
+      "value": -17940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 144,
+      "value": -17940,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 145,
+      "value": -17940,
+      "probability": 5.767450783960329e-07
+    },
+    {
+      "iterasi": 146,
+      "value": -17940,
+      "probability": 0.002018363815201366
+    },
+    {
+      "iterasi": 147,
+      "value": -17940,
+      "probability": 0.0019563958608672374
+    },
+    {
+      "iterasi": 148,
+      "value": -17940,
+      "probability": 1.1853114095372378e-20
+    },
+    {
+      "iterasi": 149,
+      "value": -17940,
+      "probability": 2.7559922917910767e-05
+    },
+    {
+      "iterasi": 150,
+      "value": -17940,
+      "probability": 0.0002448406254652644
+    },
+    {
+      "iterasi": 151,
+      "value": -17940,
+      "probability": 0.00023985484365961345
+    },
+    {
+      "iterasi": 152,
+      "value": -17870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 153,
+      "value": -17870,
+      "probability": 0.001617183408016879
+    },
+    {
+      "iterasi": 154,
+      "value": -17870,
+      "probability": 2.111324088573169e-05
+    },
+    {
+      "iterasi": 155,
+      "value": -17870,
+      "probability": 0.0015157798246883765
+    },
+    {
+      "iterasi": 156,
+      "value": -17870,
+      "probability": 0.00020720918565072727
+    },
+    {
+      "iterasi": 157,
+      "value": -17870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 158,
+      "value": -17870,
+      "probability": 1.697717196629417e-05
+    },
+    {
+      "iterasi": 159,
+      "value": -17870,
+      "probability": 1.6065521285435085e-05
+    },
+    {
+      "iterasi": 160,
+      "value": -17870,
+      "probability": 0.10873284918093538
+    },
+    {
+      "iterasi": 161,
+      "value": -17870,
+      "probability": 0.01156209996765486
+    },
+    {
+      "iterasi": 162,
+      "value": -17870,
+      "probability": 8.525495901217719e-32
+    },
+    {
+      "iterasi": 163,
+      "value": -17870,
+      "probability": 2.296913440592882e-13
+    },
+    {
+      "iterasi": 164,
+      "value": -17870,
+      "probability": 1.2140126640135633e-05
+    },
+    {
+      "iterasi": 165,
+      "value": -17870,
+      "probability": 0.0010857066370688494
+    },
+    {
+      "iterasi": 166,
+      "value": -17870,
+      "probability": 1.525905960213668e-15
+    },
+    {
+      "iterasi": 167,
+      "value": -17870,
+      "probability": 1.0226876412837587e-05
+    },
+    {
+      "iterasi": 168,
+      "value": -17870,
+      "probability": 9.585165309940923e-07
+    },
+    {
+      "iterasi": 169,
+      "value": -17870,
+      "probability": 9.108852251027301e-06
+    },
+    {
+      "iterasi": 170,
+      "value": -17870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 171,
+      "value": -17870,
+      "probability": 0.009193292691305721
+    },
+    {
+      "iterasi": 172,
+      "value": -17870,
+      "probability": 2.134324964045367e-31
+    },
+    {
+      "iterasi": 173,
+      "value": -17870,
+      "probability": 4.3269654575945816e-17
+    },
+    {
+      "iterasi": 174,
+      "value": -17870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 175,
+      "value": -17870,
+      "probability": 6.989602546525964e-05
+    },
+    {
+      "iterasi": 176,
+      "value": -17870,
+      "probability": 1.6954764630257524e-18
+    },
+    {
+      "iterasi": 177,
+      "value": -17870,
+      "probability": 5.665380208452282e-06
+    },
+    {
+      "iterasi": 178,
+      "value": -17870,
+      "probability": 0.007775804825708447
+    },
+    {
+      "iterasi": 179,
+      "value": -17870,
+      "probability": 2.5517569065103326e-30
+    },
+    {
+      "iterasi": 180,
+      "value": -17870,
+      "probability": 0.0006371479996980033
+    },
+    {
+      "iterasi": 181,
+      "value": -17870,
+      "probability": 2.0369467590690615e-12
+    },
+    {
+      "iterasi": 182,
+      "value": -16870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 183,
+      "value": -16870,
+      "probability": 0.00687406593256502
+    },
+    {
+      "iterasi": 184,
+      "value": -16870,
+      "probability": 1.3890384531109595e-12
+    },
+    {
+      "iterasi": 185,
+      "value": -16870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 186,
+      "value": -16870,
+      "probability": 4.063399415706683e-05
+    },
+    {
+      "iterasi": 187,
+      "value": -16870,
+      "probability": 9.752702168386851e-12
+    },
+    {
+      "iterasi": 188,
+      "value": -16870,
+      "probability": 0.07783263194830256
+    },
+    {
+      "iterasi": 189,
+      "value": -16870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 190,
+      "value": -16870,
+      "probability": 4.890948504494687e-23
+    },
+    {
+      "iterasi": 191,
+      "value": -16870,
+      "probability": 0.0004198404319662989
+    },
+    {
+      "iterasi": 192,
+      "value": -15870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 193,
+      "value": -15870,
+      "probability": 7.404719321484249e-11
+    },
+    {
+      "iterasi": 194,
+      "value": -15870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 195,
+      "value": -15870,
+      "probability": 8.354137108605396e-17
+    },
+    {
+      "iterasi": 196,
+      "value": -15870,
+      "probability": 8.328246427001166e-09
+    },
+    {
+      "iterasi": 197,
+      "value": -15870,
+      "probability": 7.58496068107433e-09
+    },
+    {
+      "iterasi": 198,
+      "value": -15870,
+      "probability": 3.217195018570824e-11
+    },
+    {
+      "iterasi": 199,
+      "value": -15870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 200,
+      "value": -15870,
+      "probability": 1.948368438210761e-05
+    },
+    {
+      "iterasi": 201,
+      "value": -15870,
+      "probability": 7.172808789555897e-41
+    },
+    {
+      "iterasi": 202,
+      "value": -15870,
+      "probability": 9.307833543722929e-20
+    },
+    {
+      "iterasi": 203,
+      "value": -15870,
+      "probability": 1.4597305269746447e-18
+    },
+    {
+      "iterasi": 204,
+      "value": -15870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 205,
+      "value": -15870,
+      "probability": 0.00023855814849457687
+    },
+    {
+      "iterasi": 206,
+      "value": -15870,
+      "probability": 0.061159473373567676
+    },
+    {
+      "iterasi": 207,
+      "value": -14870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 208,
+      "value": -14870,
+      "probability": 1.9536240135790726e-15
+    },
+    {
+      "iterasi": 209,
+      "value": -14870,
+      "probability": 2.5752512277773804e-25
+    },
+    {
+      "iterasi": 210,
+      "value": -14870,
+      "probability": 1.4702834735560602e-15
+    },
+    {
+      "iterasi": 211,
+      "value": -14870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 212,
+      "value": -14870,
+      "probability": 1.212220669668887e-35
+    },
+    {
+      "iterasi": 213,
+      "value": -14870,
+      "probability": 9.386644229642229e-06
+    },
+    {
+      "iterasi": 214,
+      "value": -14870,
+      "probability": 1.6068790639138502e-14
+    },
+    {
+      "iterasi": 215,
+      "value": -14870,
+      "probability": 8.353257512527574e-06
+    },
+    {
+      "iterasi": 216,
+      "value": -14870,
+      "probability": 5.259476145084206e-44
+    },
+    {
+      "iterasi": 217,
+      "value": -14870,
+      "probability": 0.0027248682364418328
+    },
+    {
+      "iterasi": 218,
+      "value": -14870,
+      "probability": 0.0026451956228426164
+    },
+    {
+      "iterasi": 219,
+      "value": -14870,
+      "probability": 3.9946445884462126e-07
+    },
+    {
+      "iterasi": 220,
+      "value": -14870,
+      "probability": 0.00012437458401009613
+    },
+    {
+      "iterasi": 221,
+      "value": -14870,
+      "probability": 1.413234900995922e-08
+    },
+    {
+      "iterasi": 222,
+      "value": -14870,
+      "probability": 6.250233289426099e-10
+    },
+    {
+      "iterasi": 223,
+      "value": -14870,
+      "probability": 0.0477002478570776
+    },
+    {
+      "iterasi": 224,
+      "value": -14870,
+      "probability": 5.425508727592371e-18
+    },
+    {
+      "iterasi": 225,
+      "value": -14870,
+      "probability": 0.046260046630861286
+    },
+    {
+      "iterasi": 226,
+      "value": -14870,
+      "probability": 0.002497394807839603
+    },
+    {
+      "iterasi": 227,
+      "value": -14870,
+      "probability": 7.342029271060371e-13
+    },
+    {
+      "iterasi": 228,
+      "value": -14870,
+      "probability": 3.970343729674529e-29
+    },
+    {
+      "iterasi": 229,
+      "value": -14870,
+      "probability": 1.2424581608651735e-30
+    },
+    {
+      "iterasi": 230,
+      "value": -14870,
+      "probability": 0.0018308785766944498
+    },
+    {
+      "iterasi": 231,
+      "value": -14870,
+      "probability": 4.169349336804891e-13
+    },
+    {
+      "iterasi": 232,
+      "value": -14870,
+      "probability": 0.001718222732663939
+    },
+    {
+      "iterasi": 233,
+      "value": -14870,
+      "probability": 0.040793662055100204
+    },
+    {
+      "iterasi": 234,
+      "value": -14870,
+      "probability": 1.042446408766273e-07
+    },
+    {
+      "iterasi": 235,
+      "value": -14870,
+      "probability": 2.1641163474298134e-27
+    },
+    {
+      "iterasi": 236,
+      "value": -14870,
+      "probability": 0.0015103682458867157
+    },
+    {
+      "iterasi": 237,
+      "value": -14870,
+      "probability": 3.2748856427115715e-19
+    },
+    {
+      "iterasi": 238,
+      "value": -14870,
+      "probability": 0.0014146880556541906
+    },
+    {
+      "iterasi": 239,
+      "value": -14870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 240,
+      "value": -12870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 241,
+      "value": -10870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 242,
+      "value": -10870,
+      "probability": 3.611821483446772e-18
+    },
+    {
+      "iterasi": 243,
+      "value": -9870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 244,
+      "value": -9870,
+      "probability": 1.6609503567748218e-09
+    },
+    {
+      "iterasi": 245,
+      "value": -9870,
+      "probability": 3.744238164105106e-05
+    },
+    {
+      "iterasi": 246,
+      "value": -9870,
+      "probability": 5.696332147033903e-23
+    },
+    {
+      "iterasi": 247,
+      "value": -9870,
+      "probability": 9.418356359419363e-56
+    },
+    {
+      "iterasi": 248,
+      "value": -9870,
+      "probability": 1.4099566825785834e-21
+    },
+    {
+      "iterasi": 249,
+      "value": -9870,
+      "probability": 3.996516752035321e-14
+    },
+    {
+      "iterasi": 250,
+      "value": -9870,
+      "probability": 2.4157612172460177e-14
+    },
+    {
+      "iterasi": 251,
+      "value": -9870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 252,
+      "value": -9870,
+      "probability": 8.158983101785958e-13
+    },
+    {
+      "iterasi": 253,
+      "value": -9870,
+      "probability": 2.9785367024752288e-08
+    },
+    {
+      "iterasi": 254,
+      "value": -9870,
+      "probability": 0.000817952553232592
+    },
+    {
+      "iterasi": 255,
+      "value": -9870,
+      "probability": 2.048930094265025e-22
+    },
+    {
+      "iterasi": 256,
+      "value": -9870,
+      "probability": 5.797551157891133e-07
+    },
+    {
+      "iterasi": 257,
+      "value": -9870,
+      "probability": 3.8739460165333715e-35
+    },
+    {
+      "iterasi": 258,
+      "value": -9870,
+      "probability": 0.026613471926088157
+    },
+    {
+      "iterasi": 259,
+      "value": -9870,
+      "probability": 1.9883815644686574e-16
+    },
+    {
+      "iterasi": 260,
+      "value": -9870,
+      "probability": 3.4149580702531604e-18
+    },
+    {
+      "iterasi": 261,
+      "value": -9870,
+      "probability": 1.4868748505007018e-16
+    },
+    {
+      "iterasi": 262,
+      "value": -9870,
+      "probability": 1.8801412808272024e-13
+    },
+    {
+      "iterasi": 263,
+      "value": -9870,
+      "probability": 0.0005892004283518136
+    },
+    {
+      "iterasi": 264,
+      "value": -9870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 265,
+      "value": -9870,
+      "probability": 6.987222496755425e-09
+    },
+    {
+      "iterasi": 266,
+      "value": -9870,
+      "probability": 0.022943741225273578
+    },
+    {
+      "iterasi": 267,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 268,
+      "value": -8870,
+      "probability": 1.9001679911718468e-20
+    },
+    {
+      "iterasi": 269,
+      "value": -8870,
+      "probability": 5.029991832973793e-24
+    },
+    {
+      "iterasi": 270,
+      "value": -8870,
+      "probability": 1.2025161141508305e-20
+    },
+    {
+      "iterasi": 271,
+      "value": -8870,
+      "probability": 3.992998435999318e-24
+    },
+    {
+      "iterasi": 272,
+      "value": -8870,
+      "probability": 3.054184342625284e-14
+    },
+    {
+      "iterasi": 273,
+      "value": -8870,
+      "probability": 3.6795552253374506e-26
+    },
+    {
+      "iterasi": 274,
+      "value": -8870,
+      "probability": 5.7748781424210376e-11
+    },
+    {
+      "iterasi": 275,
+      "value": -8870,
+      "probability": 0.00037156183324726233
+    },
+    {
+      "iterasi": 276,
+      "value": -8870,
+      "probability": 4.242677486445522e-23
+    },
+    {
+      "iterasi": 277,
+      "value": -8870,
+      "probability": 0.018524061630955702
+    },
+    {
+      "iterasi": 278,
+      "value": -8870,
+      "probability": 7.6129370714454825e-06
+    },
+    {
+      "iterasi": 279,
+      "value": -8870,
+      "probability": 1.1492369534975673e-49
+    },
+    {
+      "iterasi": 280,
+      "value": -8870,
+      "probability": 9.729055115805769e-36
+    },
+    {
+      "iterasi": 281,
+      "value": -8870,
+      "probability": 3.6924836850142795e-50
+    },
+    {
+      "iterasi": 282,
+      "value": -8870,
+      "probability": 0.000280249429563365
+    },
+    {
+      "iterasi": 283,
+      "value": -8870,
+      "probability": 5.480535883612168e-22
+    },
+    {
+      "iterasi": 284,
+      "value": -8870,
+      "probability": 1.3709680976004761e-09
+    },
+    {
+      "iterasi": 285,
+      "value": -8870,
+      "probability": 3.8956582311019595e-06
+    },
+    {
+      "iterasi": 286,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 287,
+      "value": -8870,
+      "probability": 5.209754894830125e-28
+    },
+    {
+      "iterasi": 288,
+      "value": -8870,
+      "probability": 2.271556599700214e-15
+    },
+    {
+      "iterasi": 289,
+      "value": -8870,
+      "probability": 0.014465789997980486
+    },
+    {
+      "iterasi": 290,
+      "value": -8870,
+      "probability": 2.6155456780542937e-30
+    },
+    {
+      "iterasi": 291,
+      "value": -8870,
+      "probability": 4.0168545775527517e-19
+    },
+    {
+      "iterasi": 292,
+      "value": -8870,
+      "probability": 6.291916267863302e-38
+    },
+    {
+      "iterasi": 293,
+      "value": -8870,
+      "probability": 2.340201940434464e-06
+    },
+    {
+      "iterasi": 294,
+      "value": -8870,
+      "probability": 2.629971550835476e-21
+    },
+    {
+      "iterasi": 295,
+      "value": -8870,
+      "probability": 4.642770576305953e-31
+    },
+    {
+      "iterasi": 296,
+      "value": -8870,
+      "probability": 0.00015462995198592004
+    },
+    {
+      "iterasi": 297,
+      "value": -8870,
+      "probability": 5.2080694353924814e-20
+    },
+    {
+      "iterasi": 298,
+      "value": -8870,
+      "probability": 0.00014154640282123605
+    },
+    {
+      "iterasi": 299,
+      "value": -8870,
+      "probability": 2.13251232597159e-10
+    },
+    {
+      "iterasi": 300,
+      "value": -8870,
+      "probability": 0.011377808058614065
+    },
+    {
+      "iterasi": 301,
+      "value": -8870,
+      "probability": 1.3767977890190587e-06
+    },
+    {
+      "iterasi": 302,
+      "value": -8870,
+      "probability": 2.3308927447319373e-18
+    },
+    {
+      "iterasi": 303,
+      "value": -8870,
+      "probability": 2.66493782703762e-32
+    },
+    {
+      "iterasi": 304,
+      "value": -8870,
+      "probability": 1.1221906892513486e-06
+    },
+    {
+      "iterasi": 305,
+      "value": -8870,
+      "probability": 0.00010314424447677461
+    },
+    {
+      "iterasi": 306,
+      "value": -8870,
+      "probability": 0.009924440438699906
+    },
+    {
+      "iterasi": 307,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 308,
+      "value": -8870,
+      "probability": 0.009473748143581413
+    },
+    {
+      "iterasi": 309,
+      "value": -8870,
+      "probability": 4.979462050634054e-19
+    },
+    {
+      "iterasi": 310,
+      "value": -8870,
+      "probability": 5.02896342304054e-64
+    },
+    {
+      "iterasi": 311,
+      "value": -8870,
+      "probability": 1.201381858123285e-35
+    },
+    {
+      "iterasi": 312,
+      "value": -8870,
+      "probability": 7.431604647111816e-05
+    },
+    {
+      "iterasi": 313,
+      "value": -8870,
+      "probability": 3.5563361708462e-13
+    },
+    {
+      "iterasi": 314,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 315,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 316,
+      "value": -8870,
+      "probability": 2.2933658815580575e-17
+    },
+    {
+      "iterasi": 317,
+      "value": -8870,
+      "probability": 3.40867930969053e-09
+    },
+    {
+      "iterasi": 318,
+      "value": -8870,
+      "probability": 1.353734829605661e-49
+    },
+    {
+      "iterasi": 319,
+      "value": -8870,
+      "probability": 9.837222881600452e-50
+    },
+    {
+      "iterasi": 320,
+      "value": -8870,
+      "probability": 1.2791885118527916e-28
+    },
+    {
+      "iterasi": 321,
+      "value": -8870,
+      "probability": 1.589917440532864e-11
+    },
+    {
+      "iterasi": 322,
+      "value": -8870,
+      "probability": 1.1384317038968937e-65
+    },
+    {
+      "iterasi": 323,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 324,
+      "value": -8870,
+      "probability": 1.8534088661191178e-20
+    },
+    {
+      "iterasi": 325,
+      "value": -8870,
+      "probability": 7.455931777111307e-12
+    },
+    {
+      "iterasi": 326,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 327,
+      "value": -8870,
+      "probability": 3.293625240982732e-25
+    },
+    {
+      "iterasi": 328,
+      "value": -8870,
+      "probability": 1.5374821262587052e-09
+    },
+    {
+      "iterasi": 329,
+      "value": -8870,
+      "probability": 1.0357966346542599e-18
+    },
+    {
+      "iterasi": 330,
+      "value": -8870,
+      "probability": 2.053669218536903e-34
+    },
+    {
+      "iterasi": 331,
+      "value": -8870,
+      "probability": 7.307671190699833e-53
+    },
+    {
+      "iterasi": 332,
+      "value": -8870,
+      "probability": 1.4241106035168524e-07
+    },
+    {
+      "iterasi": 333,
+      "value": -8870,
+      "probability": 2.5867806966273915e-05
+    },
+    {
+      "iterasi": 334,
+      "value": -8870,
+      "probability": 1.2149606948292303e-07
+    },
+    {
+      "iterasi": 335,
+      "value": -8870,
+      "probability": 3.679476177122336e-33
+    },
+    {
+      "iterasi": 336,
+      "value": -8870,
+      "probability": 3.957926370078973e-26
+    },
+    {
+      "iterasi": 337,
+      "value": -8870,
+      "probability": 1.8704743248176531e-54
+    },
+    {
+      "iterasi": 338,
+      "value": -8870,
+      "probability": 5.998306995960253e-29
+    },
+    {
+      "iterasi": 339,
+      "value": -8870,
+      "probability": 2.1065560003700647e-12
+    },
+    {
+      "iterasi": 340,
+      "value": -8870,
+      "probability": 3.1469707735735495e-10
+    },
+    {
+      "iterasi": 341,
+      "value": -8870,
+      "probability": 1.1552587946946118e-12
+    },
+    {
+      "iterasi": 342,
+      "value": -8870,
+      "probability": 6.372478742061567e-20
+    },
+    {
+      "iterasi": 343,
+      "value": -8870,
+      "probability": 2.3662446952044375e-46
+    },
+    {
+      "iterasi": 344,
+      "value": -8870,
+      "probability": 8.042953350304958e-59
+    },
+    {
+      "iterasi": 345,
+      "value": -8870,
+      "probability": 4.926642617972307e-08
+    },
+    {
+      "iterasi": 346,
+      "value": -8870,
+      "probability": 1.0104682616426944e-12
+    },
+    {
+      "iterasi": 347,
+      "value": -8870,
+      "probability": 0.00346450834325008
+    },
+    {
+      "iterasi": 348,
+      "value": -8870,
+      "probability": 1.8740450018745942e-25
+    },
+    {
+      "iterasi": 349,
+      "value": -8870,
+      "probability": 2.4948095758994316e-25
+    },
+    {
+      "iterasi": 350,
+      "value": -8870,
+      "probability": 1.85072005668841e-45
+    },
+    {
+      "iterasi": 351,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 352,
+      "value": -8870,
+      "probability": 2.7014531130839707e-08
+    },
+    {
+      "iterasi": 353,
+      "value": -8870,
+      "probability": 2.1018841128857426e-13
+    },
+    {
+      "iterasi": 354,
+      "value": -8870,
+      "probability": 2.2664282268856636e-08
+    },
+    {
+      "iterasi": 355,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 356,
+      "value": -8870,
+      "probability": 1.461337928056131e-31
+    },
+    {
+      "iterasi": 357,
+      "value": -8870,
+      "probability": 6.70415194681143e-06
+    },
+    {
+      "iterasi": 358,
+      "value": -8870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 359,
+      "value": -8870,
+      "probability": 0.0024384189794719987
+    },
+    {
+      "iterasi": 360,
+      "value": -8870,
+      "probability": 3.926193674919816e-45
+    },
+    {
+      "iterasi": 361,
+      "value": -8870,
+      "probability": 1.1641204893203706e-50
+    },
+    {
+      "iterasi": 362,
+      "value": -8870,
+      "probability": 1.2561832858674926e-61
+    },
+    {
+      "iterasi": 363,
+      "value": -8870,
+      "probability": 4.6876310170793075e-14
+    },
+    {
+      "iterasi": 364,
+      "value": -6870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 365,
+      "value": -6870,
+      "probability": 0.002029230184222692
+    },
+    {
+      "iterasi": 366,
+      "value": -6870,
+      "probability": 1.072767068216195e-81
+    },
+    {
+      "iterasi": 367,
+      "value": -6870,
+      "probability": 1.3207033746422674e-11
+    },
+    {
+      "iterasi": 368,
+      "value": -6870,
+      "probability": 6.303793463184677e-09
+    },
+    {
+      "iterasi": 369,
+      "value": -6870,
+      "probability": 6.201884687394825e-72
+    },
+    {
+      "iterasi": 370,
+      "value": -6870,
+      "probability": 1.1085817074121376e-44
+    },
+    {
+      "iterasi": 371,
+      "value": -6870,
+      "probability": 6.867562480804276e-84
+    },
+    {
+      "iterasi": 372,
+      "value": -6870,
+      "probability": 1.127544537404097e-50
+    },
+    {
+      "iterasi": 373,
+      "value": -6870,
+      "probability": 0.0015745636177223242
+    },
+    {
+      "iterasi": 374,
+      "value": -6870,
+      "probability": 2.3235454956581063e-06
+    },
+    {
+      "iterasi": 375,
+      "value": -6870,
+      "probability": 6.991992536385904e-15
+    },
+    {
+      "iterasi": 376,
+      "value": -6870,
+      "probability": 2.091244889101164e-43
+    },
+    {
+      "iterasi": 377,
+      "value": -6870,
+      "probability": 3.644035093715919e-12
+    },
+    {
+      "iterasi": 378,
+      "value": -6870,
+      "probability": 3.253188274622722e-35
+    },
+    {
+      "iterasi": 379,
+      "value": -6870,
+      "probability": 0.0012929558186860583
+    },
+    {
+      "iterasi": 380,
+      "value": -6870,
+      "probability": 4.7806088454744035e-21
+    },
+    {
+      "iterasi": 381,
+      "value": -6870,
+      "probability": 7.461179326854011e-94
+    },
+    {
+      "iterasi": 382,
+      "value": -6870,
+      "probability": 0.0011690162280362513
+    },
+    {
+      "iterasi": 383,
+      "value": -6870,
+      "probability": 6.922204502999907e-98
+    },
+    {
+      "iterasi": 384,
+      "value": -6870,
+      "probability": 1.3026629758866578e-09
+    },
+    {
+      "iterasi": 385,
+      "value": -6870,
+      "probability": 2.125791154778035e-42
+    },
+    {
+      "iterasi": 386,
+      "value": -6870,
+      "probability": 1.2625196021346966e-36
+    },
+    {
+      "iterasi": 387,
+      "value": -6870,
+      "probability": 1.4041497616613618e-15
+    },
+    {
+      "iterasi": 388,
+      "value": -6870,
+      "probability": 8.607658142224607e-10
+    },
+    {
+      "iterasi": 389,
+      "value": -6870,
+      "probability": 1.2836141003918842e-06
+    },
+    {
+      "iterasi": 390,
+      "value": -6870,
+      "probability": 6.97508357794958e-10
+    },
+    {
+      "iterasi": 391,
+      "value": -6870,
+      "probability": 2.804041543885757e-71
+    },
+    {
+      "iterasi": 392,
+      "value": -6870,
+      "probability": 6.908280921552712e-44
+    },
+    {
+      "iterasi": 393,
+      "value": -6870,
+      "probability": 2.1178649828555506e-31
+    },
+    {
+      "iterasi": 394,
+      "value": -6870,
+      "probability": 2.0498885019115058e-53
+    },
+    {
+      "iterasi": 395,
+      "value": -6870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 396,
+      "value": -6870,
+      "probability": 5.12062091225699e-07
+    },
+    {
+      "iterasi": 397,
+      "value": -6870,
+      "probability": 3.285237504550685e-10
+    },
+    {
+      "iterasi": 398,
+      "value": -6870,
+      "probability": 3.0374108860361504e-13
+    },
+    {
+      "iterasi": 399,
+      "value": -6870,
+      "probability": 1.8325221488958207e-29
+    },
+    {
+      "iterasi": 400,
+      "value": -6870,
+      "probability": 0.0006179598678534311
+    },
+    {
+      "iterasi": 401,
+      "value": -6870,
+      "probability": 1.1826269458903463e-42
+    },
+    {
+      "iterasi": 402,
+      "value": -6870,
+      "probability": 8.136039706812707e-33
+    },
+    {
+      "iterasi": 403,
+      "value": -6870,
+      "probability": 9.656658455770027e-118
+    },
+    {
+      "iterasi": 404,
+      "value": -6870,
+      "probability": 2.830989427968639e-07
+    },
+    {
+      "iterasi": 405,
+      "value": -6870,
+      "probability": 6.864867850895203e-83
+    },
+    {
+      "iterasi": 406,
+      "value": -6870,
+      "probability": 1.3310481877169583e-66
+    },
+    {
+      "iterasi": 407,
+      "value": -6870,
+      "probability": 5.075206648047838e-14
+    },
+    {
+      "iterasi": 408,
+      "value": -6870,
+      "probability": 1.8936247882088744e-27
+    },
+    {
+      "iterasi": 409,
+      "value": -6870,
+      "probability": 8.484541252600976e-11
+    },
+    {
+      "iterasi": 410,
+      "value": -6870,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 411,
+      "value": -5830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 412,
+      "value": -5830,
+      "probability": 0.00039085121559933006
+    },
+    {
+      "iterasi": 413,
+      "value": -5830,
+      "probability": 4.5167101874621964e-21
+    },
+    {
+      "iterasi": 414,
+      "value": -5830,
+      "probability": 3.569317250356218e-21
+    },
+    {
+      "iterasi": 415,
+      "value": -5830,
+      "probability": 6.062238802551166e-25
+    },
+    {
+      "iterasi": 416,
+      "value": -5830,
+      "probability": 0.000333419583066292
+    },
+    {
+      "iterasi": 417,
+      "value": -5830,
+      "probability": 7.695669104162983e-46
+    },
+    {
+      "iterasi": 418,
+      "value": -5830,
+      "probability": 3.565944925550196e-67
+    },
+    {
+      "iterasi": 419,
+      "value": -5830,
+      "probability": 1.7091900743136632e-32
+    },
+    {
+      "iterasi": 420,
+      "value": -5830,
+      "probability": 4.1742959648419956e-29
+    },
+    {
+      "iterasi": 421,
+      "value": -5830,
+      "probability": 5.4825998742777675e-15
+    },
+    {
+      "iterasi": 422,
+      "value": -5830,
+      "probability": 2.1609580455537765e-29
+    },
+    {
+      "iterasi": 423,
+      "value": -5830,
+      "probability": 3.885297229367037e-33
+    },
+    {
+      "iterasi": 424,
+      "value": -5830,
+      "probability": 0.0002402860505891789
+    },
+    {
+      "iterasi": 425,
+      "value": -5830,
+      "probability": 0.00023043119158086257
+    },
+    {
+      "iterasi": 426,
+      "value": -5830,
+      "probability": 1.078419508279437e-11
+    },
+    {
+      "iterasi": 427,
+      "value": -5830,
+      "probability": 4.621735553978154e-74
+    },
+    {
+      "iterasi": 428,
+      "value": -5830,
+      "probability": 8.361564686053237e-12
+    },
+    {
+      "iterasi": 429,
+      "value": -5830,
+      "probability": 0.00019447937600417092
+    },
+    {
+      "iterasi": 430,
+      "value": -5830,
+      "probability": 7.0566822783125e-49
+    },
+    {
+      "iterasi": 431,
+      "value": -5830,
+      "probability": 1.0276771246434802e-30
+    },
+    {
+      "iterasi": 432,
+      "value": -5830,
+      "probability": 6.190756938710883e-46
+    },
+    {
+      "iterasi": 433,
+      "value": -5830,
+      "probability": 2.6756405202145774e-08
+    },
+    {
+      "iterasi": 434,
+      "value": -5830,
+      "probability": 9.406684841580807e-20
+    },
+    {
+      "iterasi": 435,
+      "value": -5830,
+      "probability": 1.6073936033906388e-111
+    },
+    {
+      "iterasi": 436,
+      "value": -5830,
+      "probability": 3.659896372322263e-39
+    },
+    {
+      "iterasi": 437,
+      "value": -5830,
+      "probability": 6.64036932126347e-24
+    },
+    {
+      "iterasi": 438,
+      "value": -5830,
+      "probability": 0.00013110526713962592
+    },
+    {
+      "iterasi": 439,
+      "value": -5830,
+      "probability": 1.5711635184410436e-08
+    },
+    {
+      "iterasi": 440,
+      "value": -5830,
+      "probability": 7.657323988127404e-95
+    },
+    {
+      "iterasi": 441,
+      "value": -5830,
+      "probability": 3.883786428968867e-24
+    },
+    {
+      "iterasi": 442,
+      "value": -5830,
+      "probability": 1.6380159973456305e-87
+    },
+    {
+      "iterasi": 443,
+      "value": -5830,
+      "probability": 1.1922034549227978e-16
+    },
+    {
+      "iterasi": 444,
+      "value": -5830,
+      "probability": 1.97385208095517e-108
+    },
+    {
+      "iterasi": 445,
+      "value": -5830,
+      "probability": 9.077281360574136e-09
+    },
+    {
+      "iterasi": 446,
+      "value": -5830,
+      "probability": 8.270723739596462e-09
+    },
+    {
+      "iterasi": 447,
+      "value": -5830,
+      "probability": 2.7936802627474144e-37
+    },
+    {
+      "iterasi": 448,
+      "value": -5830,
+      "probability": 5.882857004258984e-78
+    },
+    {
+      "iterasi": 449,
+      "value": -5830,
+      "probability": 4.885056505511566e-66
+    },
+    {
+      "iterasi": 450,
+      "value": -5830,
+      "probability": 1.375583166823941e-29
+    },
+    {
+      "iterasi": 451,
+      "value": -5830,
+      "probability": 7.826736276558912e-42
+    },
+    {
+      "iterasi": 452,
+      "value": -5830,
+      "probability": 4.685644227824685e-09
+    },
+    {
+      "iterasi": 453,
+      "value": -5830,
+      "probability": 2.7756890978595213e-13
+    },
+    {
+      "iterasi": 454,
+      "value": -5830,
+      "probability": 1.0302412090845176e-25
+    },
+    {
+      "iterasi": 455,
+      "value": -5830,
+      "probability": 1.2278404889089422e-17
+    },
+    {
+      "iterasi": 456,
+      "value": -5830,
+      "probability": 7.888165479555286e-60
+    },
+    {
+      "iterasi": 457,
+      "value": -5830,
+      "probability": 4.3716824475606276e-103
+    },
+    {
+      "iterasi": 458,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 459,
+      "value": -4830,
+      "probability": 1.0115000693176708e-142
+    },
+    {
+      "iterasi": 460,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 461,
+      "value": -4830,
+      "probability": 6.670483385810972e-44
+    },
+    {
+      "iterasi": 462,
+      "value": -4830,
+      "probability": 2.087694331242817e-66
+    },
+    {
+      "iterasi": 463,
+      "value": -4830,
+      "probability": 1.579848097749665e-09
+    },
+    {
+      "iterasi": 464,
+      "value": -4830,
+      "probability": 1.4168913591508215e-22
+    },
+    {
+      "iterasi": 465,
+      "value": -4830,
+      "probability": 1.3106894599747678e-120
+    },
+    {
+      "iterasi": 466,
+      "value": -4830,
+      "probability": 2.1199047363773745e-45
+    },
+    {
+      "iterasi": 467,
+      "value": -4830,
+      "probability": 1.264228197156788e-45
+    },
+    {
+      "iterasi": 468,
+      "value": -4830,
+      "probability": 8.42798789253753e-28
+    },
+    {
+      "iterasi": 469,
+      "value": -4830,
+      "probability": 8.509239644193451e-10
+    },
+    {
+      "iterasi": 470,
+      "value": -4830,
+      "probability": 1.0507531167957456e-59
+    },
+    {
+      "iterasi": 471,
+      "value": -4830,
+      "probability": 2.0224318599031694e-55
+    },
+    {
+      "iterasi": 472,
+      "value": -4830,
+      "probability": 9.575642886248968e-24
+    },
+    {
+      "iterasi": 473,
+      "value": -4830,
+      "probability": 2.361016834244039e-05
+    },
+    {
+      "iterasi": 474,
+      "value": -4830,
+      "probability": 1.848609705026868e-51
+    },
+    {
+      "iterasi": 475,
+      "value": -4830,
+      "probability": 4.497399402220229e-10
+    },
+    {
+      "iterasi": 476,
+      "value": -4830,
+      "probability": 1.2264107547087298e-103
+    },
+    {
+      "iterasi": 477,
+      "value": -4830,
+      "probability": 2.4943842408011755e-24
+    },
+    {
+      "iterasi": 478,
+      "value": -4830,
+      "probability": 5.84807694060619e-15
+    },
+    {
+      "iterasi": 479,
+      "value": -4830,
+      "probability": 1.1459363773486251e-100
+    },
+    {
+      "iterasi": 480,
+      "value": -4830,
+      "probability": 4.602101528424045e-39
+    },
+    {
+      "iterasi": 481,
+      "value": -4830,
+      "probability": 4.50916576451298e-44
+    },
+    {
+      "iterasi": 482,
+      "value": -4830,
+      "probability": 4.675701814261964e-68
+    },
+    {
+      "iterasi": 483,
+      "value": -4830,
+      "probability": 1.864341318177096e-10
+    },
+    {
+      "iterasi": 484,
+      "value": -4830,
+      "probability": 1.665841175710625e-10
+    },
+    {
+      "iterasi": 485,
+      "value": -4830,
+      "probability": 1.4768367317577454e-44
+    },
+    {
+      "iterasi": 486,
+      "value": -4830,
+      "probability": 1.3277356953478492e-10
+    },
+    {
+      "iterasi": 487,
+      "value": -4830,
+      "probability": 1.4248126461598551e-129
+    },
+    {
+      "iterasi": 488,
+      "value": -4830,
+      "probability": 1.0849145084333178e-15
+    },
+    {
+      "iterasi": 489,
+      "value": -4830,
+      "probability": 8.849702392353936e-21
+    },
+    {
+      "iterasi": 490,
+      "value": -4830,
+      "probability": 4.924010004416128e-41
+    },
+    {
+      "iterasi": 491,
+      "value": -4830,
+      "probability": 4.798492865466535e-26
+    },
+    {
+      "iterasi": 492,
+      "value": -4830,
+      "probability": 3.042092136187207e-87
+    },
+    {
+      "iterasi": 493,
+      "value": -4830,
+      "probability": 2.4005387472056452e-77
+    },
+    {
+      "iterasi": 494,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 495,
+      "value": -4830,
+      "probability": 3.1695676286301685e-16
+    },
+    {
+      "iterasi": 496,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 497,
+      "value": -4830,
+      "probability": 1.3379906121086894e-21
+    },
+    {
+      "iterasi": 498,
+      "value": -4830,
+      "probability": 3.241756835808322e-11
+    },
+    {
+      "iterasi": 499,
+      "value": -4830,
+      "probability": 1.4794554905317388e-63
+    },
+    {
+      "iterasi": 500,
+      "value": -4830,
+      "probability": 3.412997134803991e-32
+    },
+    {
+      "iterasi": 501,
+      "value": -4830,
+      "probability": 4.741631224763434e-06
+    },
+    {
+      "iterasi": 502,
+      "value": -4830,
+      "probability": 1.2916156247641653e-64
+    },
+    {
+      "iterasi": 503,
+      "value": -4830,
+      "probability": 1.4123756536364139e-129
+    },
+    {
+      "iterasi": 504,
+      "value": -4830,
+      "probability": 2.2977337795966214e-81
+    },
+    {
+      "iterasi": 505,
+      "value": -4830,
+      "probability": 2.301641504083219e-109
+    },
+    {
+      "iterasi": 506,
+      "value": -4830,
+      "probability": 1.4562088104994472e-22
+    },
+    {
+      "iterasi": 507,
+      "value": -4830,
+      "probability": 6.118182001134023e-143
+    },
+    {
+      "iterasi": 508,
+      "value": -4830,
+      "probability": 9.36706583915714e-12
+    },
+    {
+      "iterasi": 509,
+      "value": -4830,
+      "probability": 2.9962723573418364e-194
+    },
+    {
+      "iterasi": 510,
+      "value": -4830,
+      "probability": 4.615297149905798e-67
+    },
+    {
+      "iterasi": 511,
+      "value": -4830,
+      "probability": 2.9906721029031467e-129
+    },
+    {
+      "iterasi": 512,
+      "value": -4830,
+      "probability": 5.600808593210598e-12
+    },
+    {
+      "iterasi": 513,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 514,
+      "value": -4830,
+      "probability": 2.0770255929910974e-06
+    },
+    {
+      "iterasi": 515,
+      "value": -4830,
+      "probability": 7.356289936805794e-18
+    },
+    {
+      "iterasi": 516,
+      "value": -4830,
+      "probability": 1.9995675351822032e-29
+    },
+    {
+      "iterasi": 517,
+      "value": -4830,
+      "probability": 4.9434688875738214e-18
+    },
+    {
+      "iterasi": 518,
+      "value": -4830,
+      "probability": 1.1930656187032795e-110
+    },
+    {
+      "iterasi": 519,
+      "value": -4830,
+      "probability": 1.490121986659126e-06
+    },
+    {
+      "iterasi": 520,
+      "value": -4830,
+      "probability": 8.604395066881177e-65
+    },
+    {
+      "iterasi": 521,
+      "value": -4830,
+      "probability": 1.0970180146546799e-35
+    },
+    {
+      "iterasi": 522,
+      "value": -4830,
+      "probability": 2.1865286865772145e-24
+    },
+    {
+      "iterasi": 523,
+      "value": -4830,
+      "probability": 2.765151646135957e-48
+    },
+    {
+      "iterasi": 524,
+      "value": -4830,
+      "probability": 1.1237848014863446e-12
+    },
+    {
+      "iterasi": 525,
+      "value": -4830,
+      "probability": 9.273147668360583e-43
+    },
+    {
+      "iterasi": 526,
+      "value": -4830,
+      "probability": 8.517022112245994e-13
+    },
+    {
+      "iterasi": 527,
+      "value": -4830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 528,
+      "value": -4830,
+      "probability": 6.436938374176896e-13
+    },
+    {
+      "iterasi": 529,
+      "value": -4830,
+      "probability": 5.330253957656135e-111
+    },
+    {
+      "iterasi": 530,
+      "value": -4830,
+      "probability": 1.8104356270865168e-154
+    },
+    {
+      "iterasi": 531,
+      "value": -4830,
+      "probability": 6.486086625234862e-07
+    },
+    {
+      "iterasi": 532,
+      "value": -4830,
+      "probability": 1.3290726530683606e-25
+    },
+    {
+      "iterasi": 533,
+      "value": -4830,
+      "probability": 3.1044013291958553e-138
+    },
+    {
+      "iterasi": 534,
+      "value": -4830,
+      "probability": 1.8877271720640305e-94
+    },
+    {
+      "iterasi": 535,
+      "value": -4830,
+      "probability": 2.3622158401079863e-13
+    },
+    {
+      "iterasi": 536,
+      "value": -4830,
+      "probability": 3.542783472896496e-64
+    },
+    {
+      "iterasi": 537,
+      "value": -4830,
+      "probability": 1.5183535601166827e-57
+    },
+    {
+      "iterasi": 538,
+      "value": -4830,
+      "probability": 1.5205806738734268e-13
+    },
+    {
+      "iterasi": 539,
+      "value": -4830,
+      "probability": 1.7186795418027142e-26
+    },
+    {
+      "iterasi": 540,
+      "value": -4830,
+      "probability": 1.4407389173976624e-39
+    },
+    {
+      "iterasi": 541,
+      "value": -4830,
+      "probability": 3.488932504344273e-163
+    },
+    {
+      "iterasi": 542,
+      "value": -4830,
+      "probability": 2.4434925167009991e-85
+    },
+    {
+      "iterasi": 543,
+      "value": -4830,
+      "probability": 5.767490134366967e-224
+    },
+    {
+      "iterasi": 544,
+      "value": -4830,
+      "probability": 2.2362909820746977e-66
+    },
+    {
+      "iterasi": 545,
+      "value": -4830,
+      "probability": 3.2697849668279887e-73
+    },
+    {
+      "iterasi": 546,
+      "value": -4830,
+      "probability": 4.5452597592147487e-14
+    },
+    {
+      "iterasi": 547,
+      "value": -4830,
+      "probability": 1.4641389920950235e-241
+    },
+    {
+      "iterasi": 548,
+      "value": -4830,
+      "probability": 1.0469855479930644e-67
+    },
+    {
+      "iterasi": 549,
+      "value": -4830,
+      "probability": 2.756220779244851e-156
+    },
+    {
+      "iterasi": 550,
+      "value": -4830,
+      "probability": 1.3498444078638377e-88
+    },
+    {
+      "iterasi": 551,
+      "value": -4830,
+      "probability": 1.408358077989453e-212
+    },
+    {
+      "iterasi": 552,
+      "value": -4830,
+      "probability": 4.3512647895923375e-83
+    },
+    {
+      "iterasi": 553,
+      "value": -4830,
+      "probability": 4.148156716910696e-76
+    },
+    {
+      "iterasi": 554,
+      "value": -4830,
+      "probability": 1.4705334434974622e-21
+    },
+    {
+      "iterasi": 555,
+      "value": -4830,
+      "probability": 1.1011823287109305e-14
+    },
+    {
+      "iterasi": 556,
+      "value": -4830,
+      "probability": 1.2031901558568625e-238
+    },
+    {
+      "iterasi": 557,
+      "value": -4830,
+      "probability": 5.663173349761544e-36
+    },
+    {
+      "iterasi": 558,
+      "value": -4830,
+      "probability": 7.896649078772494e-93
+    },
+    {
+      "iterasi": 559,
+      "value": -4830,
+      "probability": 6.833211647052089e-107
+    },
+    {
+      "iterasi": 560,
+      "value": -4830,
+      "probability": 8.065551142419196e-51
+    },
+    {
+      "iterasi": 561,
+      "value": -4830,
+      "probability": 2.956308676464164e-36
+    },
+    {
+      "iterasi": 562,
+      "value": -4830,
+      "probability": 4.2679132723998934e-44
+    },
+    {
+      "iterasi": 563,
+      "value": -4830,
+      "probability": 1.0732290662709223e-109
+    },
+    {
+      "iterasi": 564,
+      "value": -4830,
+      "probability": 2.4988933930627178e-15
+    },
+    {
+      "iterasi": 565,
+      "value": -3830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 566,
+      "value": -3830,
+      "probability": 7.515087390117918e-23
+    },
+    {
+      "iterasi": 567,
+      "value": -3830,
+      "probability": 8.740924687805754e-164
+    },
+    {
+      "iterasi": 568,
+      "value": -3830,
+      "probability": 2.558946291058465e-60
+    },
+    {
+      "iterasi": 569,
+      "value": -3830,
+      "probability": 1.1331883364974658e-30
+    },
+    {
+      "iterasi": 570,
+      "value": -3830,
+      "probability": 8.951804745893977e-16
+    },
+    {
+      "iterasi": 571,
+      "value": -3830,
+      "probability": 7.521285272782572e-16
+    },
+    {
+      "iterasi": 572,
+      "value": -3830,
+      "probability": 6.313839370499921e-16
+    },
+    {
+      "iterasi": 573,
+      "value": -2830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 574,
+      "value": -2830,
+      "probability": 3.3887682522874877e-108
+    },
+    {
+      "iterasi": 575,
+      "value": -2830,
+      "probability": 9.88543795057021e-55
+    },
+    {
+      "iterasi": 576,
+      "value": -2830,
+      "probability": 3.107857792468726e-16
+    },
+    {
+      "iterasi": 577,
+      "value": -2830,
+      "probability": 5.14239470692786e-47
+    },
+    {
+      "iterasi": 578,
+      "value": -2830,
+      "probability": 5.940974408280542e-212
+    },
+    {
+      "iterasi": 579,
+      "value": -2830,
+      "probability": 1.9205973723408636e-157
+    },
+    {
+      "iterasi": 580,
+      "value": -2830,
+      "probability": 2.2739909464132232e-32
+    },
+    {
+      "iterasi": 581,
+      "value": -2830,
+      "probability": 4.502514916935836e-80
+    },
+    {
+      "iterasi": 582,
+      "value": -2830,
+      "probability": 1.878073274796461e-96
+    },
+    {
+      "iterasi": 583,
+      "value": -2830,
+      "probability": 6.546834188321743e-49
+    },
+    {
+      "iterasi": 584,
+      "value": -2830,
+      "probability": 1.6550770534340353e-89
+    },
+    {
+      "iterasi": 585,
+      "value": -2830,
+      "probability": 5.982066060307284e-17
+    },
+    {
+      "iterasi": 586,
+      "value": -2830,
+      "probability": 6.043817968671919e-66
+    },
+    {
+      "iterasi": 587,
+      "value": -2830,
+      "probability": 3.6527735638441567e-131
+    },
+    {
+      "iterasi": 588,
+      "value": -2830,
+      "probability": 1.9795893216719525e-25
+    },
+    {
+      "iterasi": 589,
+      "value": -2830,
+      "probability": 5.470271527705559e-83
+    },
+    {
+      "iterasi": 590,
+      "value": -2830,
+      "probability": 1.3900390525643548e-75
+    },
+    {
+      "iterasi": 591,
+      "value": -2830,
+      "probability": 1.9121622284077597e-17
+    },
+    {
+      "iterasi": 592,
+      "value": -2830,
+      "probability": 9.857816772396193e-43
+    },
+    {
+      "iterasi": 593,
+      "value": -2830,
+      "probability": 1.5758406406256714e-17
+    },
+    {
+      "iterasi": 594,
+      "value": -2830,
+      "probability": 1.1387740393186657e-34
+    },
+    {
+      "iterasi": 595,
+      "value": -2830,
+      "probability": 8.768664347791202e-18
+    },
+    {
+      "iterasi": 596,
+      "value": -2830,
+      "probability": 1.3909683992586481e-103
+    },
+    {
+      "iterasi": 597,
+      "value": -2830,
+      "probability": 1.1455593371415705e-34
+    },
+    {
+      "iterasi": 598,
+      "value": -2830,
+      "probability": 1.0635210943765398e-26
+    },
+    {
+      "iterasi": 599,
+      "value": -2830,
+      "probability": 1.9894929973540813e-09
+    },
+    {
+      "iterasi": 600,
+      "value": -2830,
+      "probability": 1.3195323946626216e-210
+    },
+    {
+      "iterasi": 601,
+      "value": -2830,
+      "probability": 4.297526863256099e-27
+    },
+    {
+      "iterasi": 602,
+      "value": -2830,
+      "probability": 4.6518919080501297e-36
+    },
+    {
+      "iterasi": 603,
+      "value": -2830,
+      "probability": 1.5150900444354964e-106
+    },
+    {
+      "iterasi": 604,
+      "value": -2830,
+      "probability": 1.4315914731461206e-18
+    },
+    {
+      "iterasi": 605,
+      "value": -2830,
+      "probability": 1.3561249446430153e-36
+    },
+    {
+      "iterasi": 606,
+      "value": -2830,
+      "probability": 4.0488684733294295e-153
+    },
+    {
+      "iterasi": 607,
+      "value": -2830,
+      "probability": 1.4440837650728865e-190
+    },
+    {
+      "iterasi": 608,
+      "value": -2830,
+      "probability": 1.3646647972236718e-36
+    },
+    {
+      "iterasi": 609,
+      "value": -2830,
+      "probability": 4.492533562933159e-128
+    },
+    {
+      "iterasi": 610,
+      "value": -2830,
+      "probability": 4.350077892142919e-65
+    },
+    {
+      "iterasi": 611,
+      "value": -2830,
+      "probability": 4.448190501471124e-56
+    },
+    {
+      "iterasi": 612,
+      "value": -2830,
+      "probability": 5.162503490276672e-10
+    },
+    {
+      "iterasi": 613,
+      "value": -2830,
+      "probability": 2.1497236271224077e-19
+    },
+    {
+      "iterasi": 614,
+      "value": -2830,
+      "probability": 1.732110152485602e-19
+    },
+    {
+      "iterasi": 615,
+      "value": -2830,
+      "probability": 2.709511362781871e-57
+    },
+    {
+      "iterasi": 616,
+      "value": -2830,
+      "probability": 3.3478990790035256e-10
+    },
+    {
+      "iterasi": 617,
+      "value": -2830,
+      "probability": 2.0183213808930988e-190
+    },
+    {
+      "iterasi": 618,
+      "value": -2830,
+      "probability": 3.1497234673761118e-239
+    },
+    {
+      "iterasi": 619,
+      "value": -2830,
+      "probability": 3.3484429390706126e-39
+    },
+    {
+      "iterasi": 620,
+      "value": -2830,
+      "probability": 4.6171661779010054e-49
+    },
+    {
+      "iterasi": 621,
+      "value": -2830,
+      "probability": 3.133594079231483e-243
+    },
+    {
+      "iterasi": 622,
+      "value": -2830,
+      "probability": 8.747738969017008e-40
+    },
+    {
+      "iterasi": 623,
+      "value": -2830,
+      "probability": 3.624248361370437e-30
+    },
+    {
+      "iterasi": 624,
+      "value": -2830,
+      "probability": 6.95593415847576e-119
+    },
+    {
+      "iterasi": 625,
+      "value": -2830,
+      "probability": 2.5145795658550225e-159
+    },
+    {
+      "iterasi": 626,
+      "value": -2830,
+      "probability": 6.195425939681827e-210
+    },
+    {
+      "iterasi": 627,
+      "value": -2830,
+      "probability": 8.4320995874888e-61
+    },
+    {
+      "iterasi": 628,
+      "value": -2830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 629,
+      "value": -2830,
+      "probability": 5.374766814108831e-132
+    },
+    {
+      "iterasi": 630,
+      "value": -2830,
+      "probability": 2.2071168640280373e-41
+    },
+    {
+      "iterasi": 631,
+      "value": -2830,
+      "probability": 1.0751671514528383e-122
+    },
+    {
+      "iterasi": 632,
+      "value": -2830,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 633,
+      "value": -2830,
+      "probability": 6.600589086192638e-104
+    },
+    {
+      "iterasi": 634,
+      "value": -2830,
+      "probability": 6.510405660938078e-135
+    },
+    {
+      "iterasi": 635,
+      "value": -2830,
+      "probability": 5.419964268323484e-32
+    },
+    {
+      "iterasi": 636,
+      "value": -2830,
+      "probability": 2.2861507578864305e-94
+    },
+    {
+      "iterasi": 637,
+      "value": -2830,
+      "probability": 2.8925772443593503e-189
+    },
+    {
+      "iterasi": 638,
+      "value": -2830,
+      "probability": 1.7459508132583894e-233
+    },
+    {
+      "iterasi": 639,
+      "value": -2830,
+      "probability": 2.9356751415083546e-43
+    },
+    {
+      "iterasi": 640,
+      "value": -2830,
+      "probability": 4.5937704920675145e-118
+    },
+    {
+      "iterasi": 641,
+      "value": -2830,
+      "probability": 1.5965150762466693e-64
+    },
+    {
+      "iterasi": 642,
+      "value": -2830,
+      "probability": 1e-323
+    },
+    {
+      "iterasi": 643,
+      "value": -2830,
+      "probability": 1.964087439605163e-173
+    },
+    {
+      "iterasi": 644,
+      "value": -2830,
+      "probability": 1.7027688234951415e-152
+    },
+    {
+      "iterasi": 645,
+      "value": -2830,
+      "probability": 1.214938616820192e-22
+    },
+    {
+      "iterasi": 646,
+      "value": -2830,
+      "probability": 9.111e-320
+    },
+    {
+      "iterasi": 647,
+      "value": -2830,
+      "probability": 7.307102419492097e-23
+    },
+    {
+      "iterasi": 648,
+      "value": -2830,
+      "probability": 7.716528275634066e-100
+    },
+    {
+      "iterasi": 649,
+      "value": -2830,
+      "probability": 7.382098441018613e-258
+    },
+    {
+      "iterasi": 650,
+      "value": -2830,
+      "probability": 5.839848866564138e-202
+    },
+    {
+      "iterasi": 651,
+      "value": -2830,
+      "probability": 8.995094312566545e-80
+    },
+    {
+      "iterasi": 652,
+      "value": -2830,
+      "probability": 3.233698520740682e-114
+    },
+    {
+      "iterasi": 653,
+      "value": -2830,
+      "probability": 5.1050529918516615e-12
+    },
+    {
+      "iterasi": 654,
+      "value": -2830,
+      "probability": 3.4405095278142377e-12
+    },
+    {
+      "iterasi": 655,
+      "value": -2830,
+      "probability": 9.078951755125341e-24
+    },
+    {
+      "iterasi": 656,
+      "value": -2830,
+      "probability": 6.026628647269017e-185
+    },
+    {
+      "iterasi": 657,
+      "value": -2830,
+      "probability": 1.5053204925515183e-70
+    },
+    {
+      "iterasi": 658,
+      "value": -2830,
+      "probability": 8.191838730294693e-36
+    },
+    {
+      "iterasi": 659,
+      "value": -2830,
+      "probability": 5.458417209811849e-36
+    },
+    {
+      "iterasi": 660,
+      "value": -2830,
+      "probability": 7.286757346688492e-177
+    },
+    {
+      "iterasi": 661,
+      "value": -2830,
+      "probability": 1.042477011308423e-95
+    },
+    {
+      "iterasi": 662,
+      "value": -2830,
+      "probability": 1.8637393260619665e-48
+    },
+    {
+      "iterasi": 663,
+      "value": -2830,
+      "probability": 1.054152380596656e-36
+    },
+    {
+      "iterasi": 664,
+      "value": -2830,
+      "probability": 1.5489915262402457e-204
+    },
+    {
+      "iterasi": 665,
+      "value": -2830,
+      "probability": 1.4481662402456738e-60
+    },
+    {
+      "iterasi": 666,
+      "value": -2830,
+      "probability": 4.48611132044874e-25
+    },
+    {
+      "iterasi": 667,
+      "value": -2830,
+      "probability": 1.8979182961988586e-146
+    },
+    {
+      "iterasi": 668,
+      "value": -2830,
+      "probability": 2.4463129080106638e-160
+    },
+    {
+      "iterasi": 669,
+      "value": -2830,
+      "probability": 2.376776058283378e-197
+    },
+    {
+      "iterasi": 670,
+      "value": -2830,
+      "probability": 1.1760069513997983e-148
+    },
+    {
+      "iterasi": 671,
+      "value": -2830,
+      "probability": 3.5554369041968853e-38
+    },
+    {
+      "iterasi": 672,
+      "value": -2830,
+      "probability": 2.3051888404628194e-38
+    },
+    {
+      "iterasi": 673,
+      "value": -2830,
+      "probability": 1.3475090201099066e-101
+    },
+    {
+      "iterasi": 674,
+      "value": -2830,
+      "probability": 2.0479646347641974e-51
+    },
+    {
+      "iterasi": 675,
+      "value": -2830,
+      "probability": 2.092940346778616e-64
+    },
+    {
+      "iterasi": 676,
+      "value": -2830,
+      "probability": 1.5854484680789502e-13
+    },
+    {
+      "iterasi": 677,
+      "value": -2830,
+      "probability": 1.146603343855588e-179
+    },
+    {
+      "iterasi": 678,
+      "value": -2830,
+      "probability": 1.1781137459020621e-13
+    },
+    {
+      "iterasi": 679,
+      "value": -2830,
+      "probability": 6.560497737189678e-78
+    },
+    {
+      "iterasi": 680,
+      "value": -1810,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 681,
+      "value": -1810,
+      "probability": 7.545618422571013e-119
+    },
+    {
+      "iterasi": 682,
+      "value": -1810,
+      "probability": 4.156160540715056e-27
+    },
+    {
+      "iterasi": 683,
+      "value": -810,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 684,
+      "value": -810,
+      "probability": 5.813488681645335e-134
+    },
+    {
+      "iterasi": 685,
+      "value": -810,
+      "probability": 5.470433474737272e-187
+    },
+    {
+      "iterasi": 686,
+      "value": -810,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 687,
+      "value": -810,
+      "probability": 2.4364840280140713e-175
+    },
+    {
+      "iterasi": 688,
+      "value": -810,
+      "probability": 2.183444623906677e-122
+    },
+    {
+      "iterasi": 689,
+      "value": -810,
+      "probability": 2.770705598809289e-301
+    },
+    {
+      "iterasi": 690,
+      "value": -810,
+      "probability": 4.651179291095249e-275
+    },
+    {
+      "iterasi": 691,
+      "value": -810,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 692,
+      "value": -810,
+      "probability": 6.135437982905258e-84
+    },
+    {
+      "iterasi": 693,
+      "value": -810,
+      "probability": 3.5349537192078534e-292
+    },
+    {
+      "iterasi": 694,
+      "value": -810,
+      "probability": 9.869092837018014e-210
+    },
+    {
+      "iterasi": 695,
+      "value": -810,
+      "probability": 9.499550498209459e-155
+    },
+    {
+      "iterasi": 696,
+      "value": -810,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 697,
+      "value": -810,
+      "probability": 7.882086337915216e-72
+    },
+    {
+      "iterasi": 698,
+      "value": -810,
+      "probability": 4.6019363046349915e-115
+    },
+    {
+      "iterasi": 699,
+      "value": -810,
+      "probability": 6.815110690173865e-215
+    },
+    {
+      "iterasi": 700,
+      "value": -810,
+      "probability": 4.915882012484596e-44
+    },
+    {
+      "iterasi": 701,
+      "value": -810,
+      "probability": 7.560190991946138e-204
+    },
+    {
+      "iterasi": 702,
+      "value": -810,
+      "probability": 1.0495186970442919e-175
+    },
+    {
+      "iterasi": 703,
+      "value": -810,
+      "probability": 5.317503452175669e-74
+    },
+    {
+      "iterasi": 704,
+      "value": -810,
+      "probability": 4.255928353089106e-89
+    },
+    {
+      "iterasi": 705,
+      "value": -810,
+      "probability": 2.482978548747445e-30
+    },
+    {
+      "iterasi": 706,
+      "value": -810,
+      "probability": 1.3277062319791993e-15
+    },
+    {
+      "iterasi": 707,
+      "value": -810,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 708,
+      "value": -810,
+      "probability": 6.104893455852478e-121
+    },
+    {
+      "iterasi": 709,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 710,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 711,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 712,
+      "value": 190,
+      "probability": 3.897630789530198e-214
+    },
+    {
+      "iterasi": 713,
+      "value": 190,
+      "probability": 1.1677760371933324e-107
+    },
+    {
+      "iterasi": 714,
+      "value": 190,
+      "probability": 1.068614868257961e-31
+    },
+    {
+      "iterasi": 715,
+      "value": 190,
+      "probability": 5.576661661331368e-63
+    },
+    {
+      "iterasi": 716,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 717,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 718,
+      "value": 190,
+      "probability": 2.5906110557904362e-269
+    },
+    {
+      "iterasi": 719,
+      "value": 190,
+      "probability": 3.3951246912895877e-206
+    },
+    {
+      "iterasi": 720,
+      "value": 190,
+      "probability": 2.1519237194886964e-128
+    },
+    {
+      "iterasi": 721,
+      "value": 190,
+      "probability": 7.660043455250723e-49
+    },
+    {
+      "iterasi": 722,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 723,
+      "value": 190,
+      "probability": 3.977654913037478e-33
+    },
+    {
+      "iterasi": 724,
+      "value": 190,
+      "probability": 2.043776848236799e-98
+    },
+    {
+      "iterasi": 725,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 726,
+      "value": 190,
+      "probability": 3.583936641713002e-17
+    },
+    {
+      "iterasi": 727,
+      "value": 190,
+      "probability": 2.2834662133072822e-83
+    },
+    {
+      "iterasi": 728,
+      "value": 190,
+      "probability": 1.4655029178949924e-50
+    },
+    {
+      "iterasi": 729,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 730,
+      "value": 190,
+      "probability": 9.79737713443699e-202
+    },
+    {
+      "iterasi": 731,
+      "value": 190,
+      "probability": 2.533580750295962e-252
+    },
+    {
+      "iterasi": 732,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 733,
+      "value": 190,
+      "probability": 3.6394954972001995e-238
+    },
+    {
+      "iterasi": 734,
+      "value": 190,
+      "probability": 2.5551577338817574e-86
+    },
+    {
+      "iterasi": 735,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 736,
+      "value": 190,
+      "probability": 1.7948793443489335e-104
+    },
+    {
+      "iterasi": 737,
+      "value": 190,
+      "probability": 1.754821383203168e-35
+    },
+    {
+      "iterasi": 738,
+      "value": 190,
+      "probability": 1.1737640989209034e-35
+    },
+    {
+      "iterasi": 739,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 740,
+      "value": 190,
+      "probability": 2.7244481516818956e-71
+    },
+    {
+      "iterasi": 741,
+      "value": 190,
+      "probability": 6.464150628359715e-54
+    },
+    {
+      "iterasi": 742,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 743,
+      "value": 190,
+      "probability": 1.8819176219625812e-54
+    },
+    {
+      "iterasi": 744,
+      "value": 190,
+      "probability": 1.0398092290172383e-198
+    },
+    {
+      "iterasi": 745,
+      "value": 190,
+      "probability": 3.7804858640504095e-290
+    },
+    {
+      "iterasi": 746,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 747,
+      "value": 190,
+      "probability": 6.956208276097145e-219
+    },
+    {
+      "iterasi": 748,
+      "value": 190,
+      "probability": 1.8795510211277679e-37
+    },
+    {
+      "iterasi": 749,
+      "value": 190,
+      "probability": 4.307769342509698e-56
+    },
+    {
+      "iterasi": 750,
+      "value": 190,
+      "probability": 1.41619417425466e-278
+    },
+    {
+      "iterasi": 751,
+      "value": 190,
+      "probability": 5.219270251840886e-38
+    },
+    {
+      "iterasi": 752,
+      "value": 190,
+      "probability": 3.8974744019150026e-113
+    },
+    {
+      "iterasi": 753,
+      "value": 190,
+      "probability": 1.0614824927710377e-113
+    },
+    {
+      "iterasi": 754,
+      "value": 190,
+      "probability": 1.4214599188142515e-38
+    },
+    {
+      "iterasi": 755,
+      "value": 190,
+      "probability": 8.786603571810592e-58
+    },
+    {
+      "iterasi": 756,
+      "value": 190,
+      "probability": 1.4833205577624805e-306
+    },
+    {
+      "iterasi": 757,
+      "value": 190,
+      "probability": 2.990923384426505e-231
+    },
+    {
+      "iterasi": 758,
+      "value": 190,
+      "probability": 1.4411066583712225e-116
+    },
+    {
+      "iterasi": 759,
+      "value": 190,
+      "probability": 5.589957611871158e-292
+    },
+    {
+      "iterasi": 760,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 761,
+      "value": 190,
+      "probability": 2.532529283331006e-118
+    },
+    {
+      "iterasi": 762,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 763,
+      "value": 190,
+      "probability": 2.6413724212585306e-139
+    },
+    {
+      "iterasi": 764,
+      "value": 190,
+      "probability": 6.746734609588627e-160
+    },
+    {
+      "iterasi": 765,
+      "value": 190,
+      "probability": 1.78217520479078e-279
+    },
+    {
+      "iterasi": 766,
+      "value": 190,
+      "probability": 2.6243695772169692e-121
+    },
+    {
+      "iterasi": 767,
+      "value": 190,
+      "probability": 2.550029610488472e-61
+    },
+    {
+      "iterasi": 768,
+      "value": 190,
+      "probability": 5.2648345139363873e-101
+    },
+    {
+      "iterasi": 769,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 770,
+      "value": 190,
+      "probability": 9.824686769719583e-42
+    },
+    {
+      "iterasi": 771,
+      "value": 190,
+      "probability": 1.4212848887073082e-124
+    },
+    {
+      "iterasi": 772,
+      "value": 190,
+      "probability": 1.4397642404760685e-83
+    },
+    {
+      "iterasi": 773,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 774,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 775,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 776,
+      "value": 190,
+      "probability": 1.7228144151808398e-22
+    },
+    {
+      "iterasi": 777,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 778,
+      "value": 190,
+      "probability": 3.735978464013986e-214
+    },
+    {
+      "iterasi": 779,
+      "value": 190,
+      "probability": 7.68211281347046e-44
+    },
+    {
+      "iterasi": 780,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 781,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 782,
+      "value": 190,
+      "probability": 2.238589004502765e-131
+    },
+    {
+      "iterasi": 783,
+      "value": 190,
+      "probability": 4.568634040468437e-65
+    },
+    {
+      "iterasi": 784,
+      "value": 190,
+      "probability": 3.2561830864812134e-286
+    },
+    {
+      "iterasi": 785,
+      "value": 190,
+      "probability": 3.8045908106182494e-89
+    },
+    {
+      "iterasi": 786,
+      "value": 190,
+      "probability": 2.558371934670897e-267
+    },
+    {
+      "iterasi": 787,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 788,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 789,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 790,
+      "value": 190,
+      "probability": 4.657295182319629e-46
+    },
+    {
+      "iterasi": 791,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 792,
+      "value": 190,
+      "probability": 1.2755462254534876e-23
+    },
+    {
+      "iterasi": 793,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 794,
+      "value": 190,
+      "probability": 5.624049624834869e-47
+    },
+    {
+      "iterasi": 795,
+      "value": 190,
+      "probability": 5.73876796580407e-24
+    },
+    {
+      "iterasi": 796,
+      "value": 190,
+      "probability": 8.435026052259495e-71
+    },
+    {
+      "iterasi": 797,
+      "value": 190,
+      "probability": 1.2548975722412635e-94
+    },
+    {
+      "iterasi": 798,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 799,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 800,
+      "value": 190,
+      "probability": 3.316949391793693e-215
+    },
+    {
+      "iterasi": 801,
+      "value": 190,
+      "probability": 1.1199975384118595e-24
+    },
+    {
+      "iterasi": 802,
+      "value": 190,
+      "probability": 8.489094634626317e-25
+    },
+    {
+      "iterasi": 803,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 804,
+      "value": 190,
+      "probability": 3.094997746315432e-195
+    },
+    {
+      "iterasi": 805,
+      "value": 190,
+      "probability": 1.349739695787756e-244
+    },
+    {
+      "iterasi": 806,
+      "value": 190,
+      "probability": 7.633438631420167e-50
+    },
+    {
+      "iterasi": 807,
+      "value": 190,
+      "probability": 8.085356081641195e-149
+    },
+    {
+      "iterasi": 808,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 809,
+      "value": 190,
+      "probability": 1.3757248099230071e-50
+    },
+    {
+      "iterasi": 810,
+      "value": 190,
+      "probability": 6.7793712409461e-300
+    },
+    {
+      "iterasi": 811,
+      "value": 190,
+      "probability": 6.577730772302438e-26
+    },
+    {
+      "iterasi": 812,
+      "value": 190,
+      "probability": 1.1874116011463413e-76
+    },
+    {
+      "iterasi": 813,
+      "value": 190,
+      "probability": 1.3449653025654806e-51
+    },
+    {
+      "iterasi": 814,
+      "value": 190,
+      "probability": 2.0399273197553395e-77
+    },
+    {
+      "iterasi": 815,
+      "value": 190,
+      "probability": 1.7073183111992755e-103
+    },
+    {
+      "iterasi": 816,
+      "value": 190,
+      "probability": 2.2800637189962154e-52
+    },
+    {
+      "iterasi": 817,
+      "value": 190,
+      "probability": 1.4049432105062826e-78
+    },
+    {
+      "iterasi": 818,
+      "value": 190,
+      "probability": 3.526855171e-313
+    },
+    {
+      "iterasi": 819,
+      "value": 190,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 820,
+      "value": 190,
+      "probability": 1.162381621215863e-185
+    },
+    {
+      "iterasi": 821,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 822,
+      "value": 190,
+      "probability": 1.485291070948324e-80
+    },
+    {
+      "iterasi": 823,
+      "value": 190,
+      "probability": 5.897458516796697e-81
+    },
+    {
+      "iterasi": 824,
+      "value": 190,
+      "probability": 2.330786031815375e-81
+    },
+    {
+      "iterasi": 825,
+      "value": 190,
+      "probability": 8.65346339755053e-136
+    },
+    {
+      "iterasi": 826,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 827,
+      "value": 190,
+      "probability": 2.694918759412646e-55
+    },
+    {
+      "iterasi": 828,
+      "value": 190,
+      "probability": 5.4261397046839296e-83
+    },
+    {
+      "iterasi": 829,
+      "value": 190,
+      "probability": 9.189446640679716e-249
+    },
+    {
+      "iterasi": 830,
+      "value": 190,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 831,
+      "value": 190,
+      "probability": 9.465200144046787e-168
+    },
+    {
+      "iterasi": 832,
+      "value": 190,
+      "probability": 1.6040607292930266e-252
+    },
+    {
+      "iterasi": 833,
+      "value": 190,
+      "probability": 7.287202673287086e-196
+    },
+    {
+      "iterasi": 834,
+      "value": 190,
+      "probability": 9.197544003566037e-114
+    },
+    {
+      "iterasi": 835,
+      "value": 190,
+      "probability": 7.878671023152363e-198
+    },
+    {
+      "iterasi": 836,
+      "value": 190,
+      "probability": 2.8588640187284744e-29
+    },
+    {
+      "iterasi": 837,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 838,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 839,
+      "value": 210,
+      "probability": 8.954612479231903e-260
+    },
+    {
+      "iterasi": 840,
+      "value": 210,
+      "probability": 1.8563359218536994e-175
+    },
+    {
+      "iterasi": 841,
+      "value": 210,
+      "probability": 5.392228276270871e-30
+    },
+    {
+      "iterasi": 842,
+      "value": 210,
+      "probability": 5.6764286629986284e-89
+    },
+    {
+      "iterasi": 843,
+      "value": 210,
+      "probability": 2.044694015955979e-89
+    },
+    {
+      "iterasi": 844,
+      "value": 210,
+      "probability": 0.016492977322408252
+    },
+    {
+      "iterasi": 845,
+      "value": 210,
+      "probability": 1.3772499362684514e-30
+    },
+    {
+      "iterasi": 846,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 847,
+      "value": 210,
+      "probability": 5.072082642371889e-242
+    },
+    {
+      "iterasi": 848,
+      "value": 210,
+      "probability": 2.3613610328825955e-61
+    },
+    {
+      "iterasi": 849,
+      "value": 210,
+      "probability": 1.6051467748012435e-183
+    },
+    {
+      "iterasi": 850,
+      "value": 210,
+      "probability": 2.4052390693380533e-31
+    },
+    {
+      "iterasi": 851,
+      "value": 210,
+      "probability": 1.3161626110692671e-306
+    },
+    {
+      "iterasi": 852,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 853,
+      "value": 210,
+      "probability": 5.645893784487973e-94
+    },
+    {
+      "iterasi": 854,
+      "value": 210,
+      "probability": 3.3273536596373163e-63
+    },
+    {
+      "iterasi": 855,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 856,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 857,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 858,
+      "value": 210,
+      "probability": 1.3439463981646284e-32
+    },
+    {
+      "iterasi": 859,
+      "value": 210,
+      "probability": 8.63865492048673e-65
+    },
+    {
+      "iterasi": 860,
+      "value": 210,
+      "probability": 4.116410901107602e-65
+    },
+    {
+      "iterasi": 861,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 862,
+      "value": 210,
+      "probability": 8.542897608855912e-131
+    },
+    {
+      "iterasi": 863,
+      "value": 210,
+      "probability": 1.8966848578435836e-131
+    },
+    {
+      "iterasi": 864,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 865,
+      "value": 210,
+      "probability": 9.139137395810413e-133
+    },
+    {
+      "iterasi": 866,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 867,
+      "value": 210,
+      "probability": 8.827085589722233e-201
+    },
+    {
+      "iterasi": 868,
+      "value": 210,
+      "probability": 0.009758997334313568
+    },
+    {
+      "iterasi": 869,
+      "value": 210,
+      "probability": 4.399367718748036e-68
+    },
+    {
+      "iterasi": 870,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 871,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 872,
+      "value": 210,
+      "probability": 2.7181861286448874e-103
+    },
+    {
+      "iterasi": 873,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 874,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 875,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 876,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 877,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 878,
+      "value": 210,
+      "probability": 3.4289116650957467e-71
+    },
+    {
+      "iterasi": 879,
+      "value": 210,
+      "probability": 5.2996406220149546e-284
+    },
+    {
+      "iterasi": 880,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 881,
+      "value": 210,
+      "probability": 1.0377074137366255e-284
+    },
+    {
+      "iterasi": 882,
+      "value": 210,
+      "probability": 5e-324
+    },
+    {
+      "iterasi": 883,
+      "value": 210,
+      "probability": 4.1706067364955164e-109
+    },
+    {
+      "iterasi": 884,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 885,
+      "value": 210,
+      "probability": 1.1387710926671175e-219
+    },
+    {
+      "iterasi": 886,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 887,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 888,
+      "value": 210,
+      "probability": 8.185688864384965e-75
+    },
+    {
+      "iterasi": 889,
+      "value": 210,
+      "probability": 1.4555801132470366e-298
+    },
+    {
+      "iterasi": 890,
+      "value": 210,
+      "probability": 2.153693893152267e-150
+    },
+    {
+      "iterasi": 891,
+      "value": 210,
+      "probability": 1.5339707121917154e-113
+    },
+    {
+      "iterasi": 892,
+      "value": 210,
+      "probability": 6.686756387411439e-152
+    },
+    {
+      "iterasi": 893,
+      "value": 210,
+      "probability": 1.0384505108899945e-38
+    },
+    {
+      "iterasi": 894,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 895,
+      "value": 210,
+      "probability": 4.3021126694775455e-39
+    },
+    {
+      "iterasi": 896,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 897,
+      "value": 210,
+      "probability": 1.7665332663790294e-39
+    },
+    {
+      "iterasi": 898,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 899,
+      "value": 210,
+      "probability": 7.188976671435221e-40
+    },
+    {
+      "iterasi": 900,
+      "value": 210,
+      "probability": 2.0889777665080196e-79
+    },
+    {
+      "iterasi": 901,
+      "value": 210,
+      "probability": 8.405365453637492e-80
+    },
+    {
+      "iterasi": 902,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 903,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 904,
+      "value": 210,
+      "probability": 8.05e-322
+    },
+    {
+      "iterasi": 905,
+      "value": 210,
+      "probability": 4.587115967970157e-41
+    },
+    {
+      "iterasi": 906,
+      "value": 210,
+      "probability": 2.37958743836913e-122
+    },
+    {
+      "iterasi": 907,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 908,
+      "value": 210,
+      "probability": 2.005245062643123e-246
+    },
+    {
+      "iterasi": 909,
+      "value": 210,
+      "probability": 4.8884179131608625e-83
+    },
+    {
+      "iterasi": 910,
+      "value": 210,
+      "probability": 4.342831993233549e-42
+    },
+    {
+      "iterasi": 911,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 912,
+      "value": 210,
+      "probability": 2.7672956561514872e-84
+    },
+    {
+      "iterasi": 913,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 914,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 915,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 916,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 917,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 918,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 919,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 920,
+      "value": 210,
+      "probability": 3.248122582153562e-44
+    },
+    {
+      "iterasi": 921,
+      "value": 210,
+      "probability": 1.48727610860847e-175
+    },
+    {
+      "iterasi": 922,
+      "value": 210,
+      "probability": 1.1843095368435234e-44
+    },
+    {
+      "iterasi": 923,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 924,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 925,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 926,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 927,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 928,
+      "value": 210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 929,
+      "value": 210,
+      "probability": 1.06887092186105e-273
+    },
+    {
+      "iterasi": 930,
+      "value": 210,
+      "probability": 7.843319815110471e-96
+    },
+    {
+      "iterasi": 931,
+      "value": 210,
+      "probability": 1.899347111995588e-276
+    },
+    {
+      "iterasi": 932,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 933,
+      "value": 210,
+      "probability": 5.627121286190654e-140
+    },
+    {
+      "iterasi": 934,
+      "value": 210,
+      "probability": 1.2620540117104883e-280
+    },
+    {
+      "iterasi": 935,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 936,
+      "value": 210,
+      "probability": 4.369962762422173e-142
+    },
+    {
+      "iterasi": 937,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 938,
+      "value": 210,
+      "probability": 6.468540229958464e-96
+    },
+    {
+      "iterasi": 939,
+      "value": 210,
+      "probability": 4.623142215825834e-192
+    },
+    {
+      "iterasi": 940,
+      "value": 210,
+      "probability": 8.430699921185541e-49
+    },
+    {
+      "iterasi": 941,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 942,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 943,
+      "value": 210,
+      "probability": 2.48290348413745e-98
+    },
+    {
+      "iterasi": 944,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 945,
+      "value": 210,
+      "probability": 5.078903654486142e-50
+    },
+    {
+      "iterasi": 946,
+      "value": 210,
+      "probability": 2.366905002193245e-149
+    },
+    {
+      "iterasi": 947,
+      "value": 210,
+      "probability": 1.1105267503020219e-249
+    },
+    {
+      "iterasi": 948,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 949,
+      "value": 210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 950,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 951,
+      "value": 1210,
+      "probability": 4.0007725947326014e-153
+    },
+    {
+      "iterasi": 952,
+      "value": 1210,
+      "probability": 7.778281612854374e-103
+    },
+    {
+      "iterasi": 953,
+      "value": 1210,
+      "probability": 5.695673040655618e-206
+    },
+    {
+      "iterasi": 954,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 955,
+      "value": 1210,
+      "probability": 1.4855968672219824e-52
+    },
+    {
+      "iterasi": 956,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 957,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 958,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 959,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 960,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 961,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 962,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 963,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 964,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 965,
+      "value": 1210,
+      "probability": 1.0743220832001838e-218
+    },
+    {
+      "iterasi": 966,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 967,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 968,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 969,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 970,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 971,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 972,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 973,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 974,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 975,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 976,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 977,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 978,
+      "value": 1210,
+      "probability": 3.280744497303504e-175
+    },
+    {
+      "iterasi": 979,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 980,
+      "value": 1210,
+      "probability": 3.2011451019485282e-118
+    },
+    {
+      "iterasi": 981,
+      "value": 1210,
+      "probability": 8.220150314139922e-119
+    },
+    {
+      "iterasi": 982,
+      "value": 1210,
+      "probability": 4.578714848725e-60
+    },
+    {
+      "iterasi": 983,
+      "value": 1210,
+      "probability": 1.2236835965685124e-179
+    },
+    {
+      "iterasi": 984,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 985,
+      "value": 1210,
+      "probability": 1.9276908515944124e-181
+    },
+    {
+      "iterasi": 986,
+      "value": 1210,
+      "probability": 8.27843031746887e-122
+    },
+    {
+      "iterasi": 987,
+      "value": 1210,
+      "probability": 4.1590194347871956e-244
+    },
+    {
+      "iterasi": 988,
+      "value": 1210,
+      "probability": 2.488690006237971e-245
+    },
+    {
+      "iterasi": 989,
+      "value": 1210,
+      "probability": 4.217971305699461e-185
+    },
+    {
+      "iterasi": 990,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 991,
+      "value": 1210,
+      "probability": 4.896792452793989e-249
+    },
+    {
+      "iterasi": 992,
+      "value": 1210,
+      "probability": 2.767720998231411e-250
+    },
+    {
+      "iterasi": 993,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 994,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 995,
+      "value": 1210,
+      "probability": 4.5814838312588776e-254
+    },
+    {
+      "iterasi": 996,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 997,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 998,
+      "value": 1210,
+      "probability": 5.07750469897316e-65
+    },
+    {
+      "iterasi": 999,
+      "value": 1210,
+      "probability": 5.822725269191443e-130
+    },
+    {
+      "iterasi": 1000,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1001,
+      "value": 1210,
+      "probability": 2.9726994047015856e-07
+    },
+    {
+      "iterasi": 1002,
+      "value": 1210,
+      "probability": 1.6239879364470856e-197
+    },
+    {
+      "iterasi": 1003,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1004,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1005,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1006,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1007,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1008,
+      "value": 1210,
+      "probability": 1.5929152103948305e-203
+    },
+    {
+      "iterasi": 1009,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1010,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1011,
+      "value": 1210,
+      "probability": 2.3796704738419537e-69
+    },
+    {
+      "iterasi": 1012,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1013,
+      "value": 1210,
+      "probability": 4.8428464753513764e-70
+    },
+    {
+      "iterasi": 1014,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1015,
+      "value": 1210,
+      "probability": 8.848565357347095e-281
+    },
+    {
+      "iterasi": 1016,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1017,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1018,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1019,
+      "value": 1210,
+      "probability": 1.3726043315640866e-143
+    },
+    {
+      "iterasi": 1020,
+      "value": 1210,
+      "probability": 6.906963579508542e-288
+    },
+    {
+      "iterasi": 1021,
+      "value": 1210,
+      "probability": 9.183956377349058e-76
+    },
+    {
+      "iterasi": 1022,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1023,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1024,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1025,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1026,
+      "value": 1210,
+      "probability": 1.0860172406778695e-148
+    },
+    {
+      "iterasi": 1027,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1028,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1029,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1030,
+      "value": 1210,
+      "probability": 3.620627621018023e-227
+    },
+    {
+      "iterasi": 1031,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1032,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1033,
+      "value": 1210,
+      "probability": 2.3766838520475174e-77
+    },
+    {
+      "iterasi": 1034,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1035,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1036,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1037,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1038,
+      "value": 1210,
+      "probability": 7.287795113480741e-158
+    },
+    {
+      "iterasi": 1039,
+      "value": 1210,
+      "probability": 1.3993357e-316
+    },
+    {
+      "iterasi": 1040,
+      "value": 1210,
+      "probability": 1.9026449295344696e-159
+    },
+    {
+      "iterasi": 1041,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1042,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1043,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1044,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1045,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1046,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1047,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1048,
+      "value": 1210,
+      "probability": 6.099153127814605e-166
+    },
+    {
+      "iterasi": 1049,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1050,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1051,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1052,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1053,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1054,
+      "value": 1210,
+      "probability": 5.507065533927051e-171
+    },
+    {
+      "iterasi": 1055,
+      "value": 1210,
+      "probability": 7.679748176687628e-172
+    },
+    {
+      "iterasi": 1056,
+      "value": 1210,
+      "probability": 1.091972061393514e-258
+    },
+    {
+      "iterasi": 1057,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1058,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1059,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1060,
+      "value": 1210,
+      "probability": 6.5138044635818e-264
+    },
+    {
+      "iterasi": 1061,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1062,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1063,
+      "value": 1210,
+      "probability": 6.702438627362494e-268
+    },
+    {
+      "iterasi": 1064,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1065,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1066,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1067,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1068,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1069,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1070,
+      "value": 1210,
+      "probability": 1.9288061308333928e-277
+    },
+    {
+      "iterasi": 1071,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1072,
+      "value": 1210,
+      "probability": 6.798548670216696e-94
+    },
+    {
+      "iterasi": 1073,
+      "value": 1210,
+      "probability": 5.351490957448686e-188
+    },
+    {
+      "iterasi": 1074,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1075,
+      "value": 1210,
+      "probability": 1.829910851145276e-284
+    },
+    {
+      "iterasi": 1076,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1077,
+      "value": 1210,
+      "probability": 8.624900669796984e-192
+    },
+    {
+      "iterasi": 1078,
+      "value": 1210,
+      "probability": 1.1045991834039422e-290
+    },
+    {
+      "iterasi": 1079,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1080,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1081,
+      "value": 1210,
+      "probability": 3.412798320957982e-98
+    },
+    {
+      "iterasi": 1082,
+      "value": 1210,
+      "probability": 1.2208281127438477e-196
+    },
+    {
+      "iterasi": 1083,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1084,
+      "value": 1210,
+      "probability": 1.2963700625679185e-198
+    },
+    {
+      "iterasi": 1085,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1086,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1087,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1088,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1089,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1090,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1091,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1092,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1093,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1094,
+      "value": 1210,
+      "probability": 8.724466124615826e-209
+    },
+    {
+      "iterasi": 1095,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1096,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1097,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1098,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1099,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1100,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1101,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1102,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1103,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1104,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1105,
+      "value": 1210,
+      "probability": 1.401559219809001e-220
+    },
+    {
+      "iterasi": 1106,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1107,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1108,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1109,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1110,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1111,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1112,
+      "value": 1210,
+      "probability": 1.974730548136867e-228
+    },
+    {
+      "iterasi": 1113,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1114,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1115,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1116,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1117,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1118,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1119,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1120,
+      "value": 1210,
+      "probability": 9.526448285424371e-238
+    },
+    {
+      "iterasi": 1121,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1122,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1123,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1124,
+      "value": 1210,
+      "probability": 1.2283674337249147e-121
+    },
+    {
+      "iterasi": 1125,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1126,
+      "value": 1210,
+      "probability": 5.523125124908081e-245
+    },
+    {
+      "iterasi": 1127,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1128,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1129,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1130,
+      "value": 1210,
+      "probability": 6.242349712095798e-250
+    },
+    {
+      "iterasi": 1131,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1132,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1133,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1134,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1135,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1136,
+      "value": 1210,
+      "probability": 3.920179201514783e-129
+    },
+    {
+      "iterasi": 1137,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1138,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1139,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1140,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1141,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1142,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1143,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1144,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1145,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1146,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1147,
+      "value": 1210,
+      "probability": 2.0625030789345115e-136
+    },
+    {
+      "iterasi": 1148,
+      "value": 1210,
+      "probability": 4.290988913951129e-137
+    },
+    {
+      "iterasi": 1149,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1150,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1151,
+      "value": 1210,
+      "probability": 1.3578061783555754e-277
+    },
+    {
+      "iterasi": 1152,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1153,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1154,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1155,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1156,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1157,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1158,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1159,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1160,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1161,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1162,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1163,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1164,
+      "value": 1210,
+      "probability": 3.094085072862116e-296
+    },
+    {
+      "iterasi": 1165,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1166,
+      "value": 1210,
+      "probability": 3.259310076025091e-299
+    },
+    {
+      "iterasi": 1167,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1168,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1169,
+      "value": 1210,
+      "probability": 3.128504639256273e-152
+    },
+    {
+      "iterasi": 1170,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1171,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1172,
+      "value": 1210,
+      "probability": 2.510155865675127e-308
+    },
+    {
+      "iterasi": 1173,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1174,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1175,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1176,
+      "value": 1210,
+      "probability": 1.2162123869156658e-157
+    },
+    {
+      "iterasi": 1177,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1178,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1179,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1180,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1181,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1182,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1183,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1184,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1185,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1186,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1187,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1188,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1189,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1190,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1191,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1192,
+      "value": 1210,
+      "probability": 9.591930312025481e-171
+    },
+    {
+      "iterasi": 1193,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1194,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1195,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1196,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1197,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1198,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1199,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1200,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1201,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1202,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1203,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1204,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1205,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1206,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1207,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1208,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1209,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1210,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1211,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1212,
+      "value": 1210,
+      "probability": 1.1319027991195536e-188
+    },
+    {
+      "iterasi": 1213,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1214,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1215,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1216,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1217,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1218,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1219,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1220,
+      "value": 1210,
+      "probability": 2.3118066063221095e-196
+    },
+    {
+      "iterasi": 1221,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1222,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1223,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1224,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1225,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1226,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1227,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1228,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1229,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1230,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1231,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1232,
+      "value": 1210,
+      "probability": 1.7188075193505233e-208
+    },
+    {
+      "iterasi": 1233,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1234,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1235,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1236,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1237,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1238,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1239,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1240,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1241,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1242,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1243,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1244,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1245,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1246,
+      "value": 1210,
+      "probability": 1.353481696801117e-223
+    },
+    {
+      "iterasi": 1247,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1248,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1249,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1250,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1251,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1252,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1253,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1254,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1255,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1256,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1257,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1258,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1259,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1260,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1261,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1262,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1263,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1264,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1265,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1266,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1267,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1268,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1269,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1270,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1271,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1272,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1273,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1274,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1275,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1276,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1277,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1278,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1279,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1280,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1281,
+      "value": 1210,
+      "probability": 2.4667162191715457e-266
+    },
+    {
+      "iterasi": 1282,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1283,
+      "value": 1210,
+      "probability": 5.1997941521715666e-269
+    },
+    {
+      "iterasi": 1284,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1285,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1286,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1287,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1288,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1289,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1290,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1291,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1292,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1293,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1294,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1295,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1296,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1297,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1298,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1299,
+      "value": 1210,
+      "probability": 2.0562280505046016e-291
+    },
+    {
+      "iterasi": 1300,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1301,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1302,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1303,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1304,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1305,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1306,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1307,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1308,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1309,
+      "value": 1210,
+      "probability": 2.3491171932557295e-306
+    },
+    {
+      "iterasi": 1310,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1311,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1312,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1313,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1314,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1315,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1316,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1317,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1318,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1319,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1320,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1321,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1322,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1323,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1324,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1325,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1326,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1327,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1328,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1329,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1330,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1331,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1332,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1333,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1334,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1335,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1336,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1337,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1338,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1339,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1340,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1341,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1342,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1343,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1344,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1345,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1346,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1347,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1348,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1349,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1350,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1351,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1352,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1353,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1354,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1355,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1356,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1357,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1358,
+      "value": 1210,
+      "probability": 8.475614558988597e-40
+    },
+    {
+      "iterasi": 1359,
+      "value": 1210,
+      "probability": 3.252978890575894e-28
+    },
+    {
+      "iterasi": 1360,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1361,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1362,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1363,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1364,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1365,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1366,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1367,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1368,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1369,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1370,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1371,
+      "value": 1210,
+      "probability": 1.9831085828982203e-42
+    },
+    {
+      "iterasi": 1372,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1373,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1374,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1375,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1376,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1377,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1378,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1379,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1380,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1381,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1382,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1383,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1384,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1385,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1386,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1387,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1388,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1389,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1390,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1391,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1392,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1393,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1394,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1395,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1396,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1397,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1398,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1399,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1400,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1401,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1402,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1403,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1404,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1405,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1406,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1407,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1408,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1409,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1410,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1411,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1412,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1413,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1414,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1415,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1416,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1417,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1418,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1419,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1420,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1421,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1422,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1423,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1424,
+      "value": 1210,
+      "probability": 2.314171644190077e-33
+    },
+    {
+      "iterasi": 1425,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1426,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1427,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1428,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1429,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1430,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1431,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1432,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1433,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1434,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1435,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1436,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1437,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1438,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1439,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1440,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1441,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1442,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1443,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1444,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1445,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1446,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1447,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1448,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1449,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1450,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1451,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1452,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1453,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1454,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1455,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1456,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1457,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1458,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1459,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1460,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1461,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1462,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1463,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1464,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1465,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1466,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1467,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1468,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1469,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1470,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1471,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1472,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1473,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1474,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1475,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1476,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1477,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1478,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1479,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1480,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1481,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1482,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1483,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1484,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1485,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1486,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1487,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1488,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1489,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1490,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1491,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1492,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1493,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1494,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1495,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1496,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1497,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1498,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1499,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1500,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1501,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1502,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1503,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1504,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1505,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1506,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1507,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1508,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1509,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1510,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1511,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1512,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1513,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1514,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1515,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1516,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1517,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1518,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1519,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1520,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1521,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1522,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1523,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1524,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1525,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1526,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1527,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1528,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1529,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1530,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1531,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1532,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1533,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1534,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1535,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1536,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1537,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1538,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1539,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1540,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1541,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1542,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1543,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1544,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1545,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1546,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1547,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1548,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1549,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1550,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1551,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1552,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1553,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1554,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1555,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1556,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1557,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1558,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1559,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1560,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1561,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1562,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1563,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1564,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1565,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1566,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1567,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1568,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1569,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1570,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1571,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1572,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1573,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1574,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1575,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1576,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1577,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1578,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1579,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1580,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1581,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1582,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1583,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1584,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1585,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1586,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1587,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1588,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1589,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1590,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1591,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1592,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1593,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1594,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1595,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1596,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1597,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1598,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1599,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1600,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1601,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1602,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1603,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1604,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1605,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1606,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1607,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1608,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1609,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1610,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1611,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1612,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1613,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1614,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1615,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1616,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1617,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1618,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1619,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1620,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1621,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1622,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1623,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1624,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1625,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1626,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1627,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1628,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1629,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1630,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1631,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1632,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1633,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1634,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1635,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1636,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1637,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1638,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1639,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1640,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1641,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1642,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1643,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1644,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1645,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1646,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1647,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1648,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1649,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1650,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1651,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1652,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1653,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1654,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1655,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1656,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1657,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1658,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1659,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1660,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1661,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1662,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1663,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1664,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1665,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1666,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1667,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1668,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1669,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1670,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1671,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1672,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1673,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1674,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1675,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1676,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1677,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1678,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1679,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1680,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1681,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1682,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1683,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1684,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1685,
+      "value": 1210,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1686,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1687,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1688,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1689,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1690,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1691,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1692,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1693,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1694,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1695,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1696,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1697,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1698,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1699,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1700,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1701,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1702,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1703,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1704,
+      "value": 1210,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1705,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1706,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1707,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1708,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1709,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1710,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1711,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1712,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1713,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1714,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1715,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1716,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1717,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1718,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1719,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1720,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1721,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1722,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1723,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1724,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1725,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1726,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1727,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1728,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1729,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1730,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1731,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1732,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1733,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1734,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1735,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1736,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1737,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1738,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1739,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1740,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1741,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1742,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1743,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1744,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1745,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1746,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1747,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1748,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1749,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1750,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1751,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1752,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1753,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1754,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1755,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1756,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1757,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1758,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1759,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1760,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1761,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1762,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1763,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1764,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1765,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1766,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1767,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1768,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1769,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1770,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1771,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1772,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1773,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1774,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1775,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1776,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1777,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1778,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1779,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1780,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1781,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1782,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1783,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1784,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1785,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1786,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1787,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1788,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1789,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1790,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1791,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1792,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1793,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1794,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1795,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1796,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1797,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1798,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1799,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1800,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1801,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1802,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1803,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1804,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1805,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1806,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1807,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1808,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1809,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1810,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1811,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1812,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1813,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1814,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1815,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1816,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1817,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1818,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1819,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1820,
+      "value": 1220,
+      "probability": 1.0
+    },
+    {
+      "iterasi": 1821,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1822,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1823,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1824,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1825,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1826,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1827,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1828,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1829,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1830,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1831,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1832,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1833,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1834,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1835,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1836,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1837,
+      "value": 1220,
+      "probability": 0.0
+    },
+    {
+      "iterasi": 1838,
+      "value": 1220,
+      "probability": 0.0
+    }
+  ]
+}

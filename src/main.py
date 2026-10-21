@@ -6,17 +6,21 @@ from algorithms.hc_steepest_ascent import HC_steepest
 from algorithms.simulated_annealing import SimulatedAnnealing
 from algorithms.genetic import Genetic
 from utils import load_data, random_initial_state
-from visualization import plot_hasil
+from visualization import plot_hasil, simpan_hasil_sa
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("algoritma", choices=["hc", "sa", "gen"])
     parser.add_argument("--seed", type=int)
-    parser.add_argument("--output")
+    output = parser.add_mutually_exclusive_group()
+    output.add_argument("--output")
+    output.add_argument("--output-dir", type=Path)
     #param for genetic run
     parser.add_argument("--population", type=int, default=50)
     parser.add_argument("--iterations", type=int, default=100)
     args = parser.parse_args()
+    if args.output_dir and args.algoritma != "sa":
+        parser.error("--output-dir hanya untuk SA")
 
     # Gunakan seed agar hasil random bisa direproduksi
     random.seed(args.seed)
@@ -38,6 +42,11 @@ def main():
     print(f"Menjalankan {nama}...")
     algoritma.run()
     print(f"Nilai akhir: {algoritma.final_value} | Durasi: {algoritma.duration:.2f} detik")
+
+    if args.output_dir:
+        simpan_hasil_sa(algoritma, daftar_kendaraan, kapal, args.output_dir, args.seed)
+        print(f"Output disimpan ke {args.output_dir}")
+        return
 
     #GA membuat populasi sendiri, initial state = individu terbaik dari populasi asal
     if args.algoritma == "gen":
