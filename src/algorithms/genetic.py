@@ -14,7 +14,7 @@ def _posisi_acak(kendaraan, kapal, arah):
     """Posisi (x, y) acak yang membuat seluruh badan kendaraan tetap di kapal"""
     ukuran_x, ukuran_y = _ukuran(kendaraan, arah)
     x = random.randint(0, max(0, kapal.dp-ukuran_x))
-    y = random.randint(0, max(0, kapal.dp-ukuran_y))
+    y = random.randint(0, max(0, kapal.dl-ukuran_y))
 
     return x, y
 
