@@ -22,13 +22,19 @@ Melakukan local search
    ```
 2. Pilih jenis algoritma yang ingin digunakan
 
+atau untuk run eksperiment pada Genetic Algorithm : 
+1. Ubah konfigurasi pada file src/experiment_ga.py
+2. Pada folder root, gunakan command:
+   ```
+   python src/experiment_ga.py
+   ```
+
 ## Bonus yang Dikerjakan
 1. Objective function (3 poin)
-2. Implementasi untuk seluruh algoritma Hill-climbing yang ada (7 poin)
 
 ## Pembagian Tugas
 | No | Nama | NIM | Tugas |
 | :---: | :--- | :---: | :--- |
-| 1 | Nisrina Zakiyah | 18224001 | Simulated annealing, visualization, bonus objective function, membuat laporan |
-| 2 | Naomi Azzahra | 18224017 | Genetic algorithm, formatting dokumen, membuat laporan |
-| 3 | Antania Hanjani Yustika Putri | 18224083 | Engine dasar, hill climbing, bonus hill climbing, membuat laporan |
+| 1 | Nisrina Zakiyah | 18224001 | Simulated Annealing, data uji, visualization, bonus objective function, dan laporan bagiannya |
+| 2 | Naomi Azzahra | 18224017 | Genetic Algorithm, run file for genetic algorithm (experiment.py), formatting laporan, laporan bagiannya |
+| 3 | Antania Hanjani Yustika Putri | 18224083 | HC Steepest Ascent, Data Uji, Fungsional Dasar (Representasi Masalah, Pencarian Neighbor, Objective Function Dasar), laporan bagiannya |
