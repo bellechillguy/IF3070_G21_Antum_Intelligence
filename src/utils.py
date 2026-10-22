@@ -31,9 +31,10 @@ def random_initial_state(daftar_kendaraan, kapal):
         if random.random() < 0.5: # Tiap kendaraan punya peluang 50% tidak diangkut (None)
             state.append(None)
         else:
-            x = random.randint(0, kapal.dp - 1)
-            y = random.randint(0, kapal.dl - 1)
             arah = random.choice(["V", "H"])
+            ukuran_x, ukuran_y = ukuran_kendaraan(kendaraan, arah)
+            x = random.randint(0, kapal.dp - ukuran_x)
+            y = random.randint(0, kapal.dl - ukuran_y)
             state.append((x, y, arah))
     return state
 
@@ -70,16 +71,19 @@ def get_neighbors(state, daftar_kendaraan, kapal):
         # Skip kendaraan yang gapunya posisi (gaaada arah)
         if posisi is None:
             continue
+        x, y, arah = posisi
+
         # Skip Kendaraan 1:1 (karena akan sama saja)
-        if daftar_kendaraan[i].p == daftar_kendaraan[i].l:
+        k = daftar_kendaraan[i]
+        if k.p == k.l:
             continue
 
-        x, y, arah = posisi
         if arah == "V":
             arah_baru = "H"
         else:
             arah_baru = "V"
-
+        if not is_muat(k, x, y, arah_baru, kapal):
+            continue
         new_state = state[:]
         new_state[i] = (x, y, arah_baru)
         daftar_neighbor.append(new_state)
@@ -88,13 +92,9 @@ def get_neighbors(state, daftar_kendaraan, kapal):
     for i, posisi in enumerate(state):
         if posisi is None:
             continue
-
         x, y, arah = posisi
         k = daftar_kendaraan[i]
-        if arah == "H":
-            ukuran_x, ukuran_y = k.p, k.l
-        elif arah == "V":
-            ukuran_x, ukuran_y = k.l, k.p
+        ukuran_x, ukuran_y = ukuran_kendaraan(k, arah)
 
         # Hanya pindahkan ke titik yang membuat seluruh badannya tetap di dalam Kapal
         for x_baru in range(kapal.dp - ukuran_x+1):
@@ -109,15 +109,15 @@ def get_neighbors(state, daftar_kendaraan, kapal):
     for i, posisi in enumerate(state):
         if posisi is not None:
             continue
-
         k = daftar_kendaraan[i]
-        ukuran_x, ukuran_y = k.p, k.l
 
-        for x in range(kapal.dp - ukuran_x + 1):
-            for y in range(kapal.dl - ukuran_y + 1):
-                new_state = state[:]
-                new_state[i] = (x, y, "H") #Default pas masuk Horizontal
-                daftar_neighbor.append(new_state)
+        for arah in ["H", "V"]:
+            ukuran_x, ukuran_y = ukuran_kendaraan(k, arah)
+            for x in range(kapal.dp - ukuran_x +1):
+                for y in range(kapal.dl - ukuran_y +1):
+                    new_state = state[:]
+                    new_state[i] = (x, y, arah)
+                    daftar_neighbor.append(new_state)
 
     # 2c. Memindahkan 1 Kendaraan di dalam ke luar (None)
     for i, posisi in enumerate(state):
@@ -131,12 +131,43 @@ def get_neighbors(state, daftar_kendaraan, kapal):
     # Menukar posisi 2 Kendaraan 
     for i in range(n):
         for j in range(i+1, n):
-            if state[i] is None and state[j] is None: #Skip kalau 2 2 nya di luar
+            #Skip kalau 2 2 nya di luar
+            if state[i] is None and state[j] is None: 
                 continue
+
+            k1 = daftar_kendaraan[i]
+            k2 = daftar_kendaraan[j]
+            #K2 pindah ke posisi lama K1 kalau posisi K1 bukan None
+            if state[i] is not None:
+                x1,y1,arah1 = state[i]
+                if not is_muat(k2, x1, y1, arah1, kapal):
+                    continue
+            #K1 pindah ke posisi lama K2 kalau posisi K2 bukan None
+            if state[j] is not None:
+                x2,y2,arah2 = state[j]
+                if not is_muat(k1, x2, y2, arah2, kapal):
+                    continue
+
             new_state = state[:]
             new_state[i], new_state[j] = new_state[j], new_state[i]
             daftar_neighbor.append(new_state)
 
     return daftar_neighbor
 
-    
+def ukuran_kendaraan(k, arah):
+    '''
+    Menghitung ukuran berdasarkan arah kendaraan
+    '''
+    if arah == "H":
+        return k.p, k.l
+    elif arah == "V":
+        return k.l, k.p
+
+def is_muat(k, x, y, arah, kapal):
+    '''
+    Cek apakah kendaraan dengan posisi x,y,arah muat di kapal
+    '''
+    ukuran_x, ukuran_y = ukuran_kendaraan(k, arah)
+    if (x + ukuran_x <= kapal.dp) and (y + ukuran_y <= kapal.dl):
+        return True
+    return False
