@@ -22,6 +22,13 @@ Melakukan local search
    ```
 2. Pilih jenis algoritma yang ingin digunakan
 
+atau untuk run eksperiment pada Genetic Algorithm : 
+1. Ubah konfigurasi pada file src/experiment_ga.py
+2. Pada folder root, gunakan command:
+   ```
+   python src/experiment_ga.py
+   ```
+
 ## Bonus yang Dikerjakan
 1. Objective function (3 poin)
 
