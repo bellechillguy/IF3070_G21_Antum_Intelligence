@@ -1,88 +1,88 @@
-Simulated Annealing | Run 1 | Seed 21
+Simulated Annealing | SA_run1 | Seed 21
 Initial temperature: 1000
-Cooling rate: 0.995
+Cooling rate: 0.998
 Minimum temperature: 0.1
-Nilai akhir: 1260
-Durasi pencarian: 8.3924 detik
-Iterasi: 1838
-Langkah lebih buruk ditolak: 1693
+Nilai akhir: 1170
+Durasi pencarian: 21.1624 detik
+Iterasi: 4601
+Langkah lebih buruk ditolak: 4212
 
 ### INITIAL STATE ###
-Objective: -115670
-Total fee: 1330
+Objective: -112680
+Total fee: 1320
 Berat: 115/100
 Kelebihan kapasitas: 15
-Sel overlap: 72
-Sel keluar kapal: 30
+Sel overlap: 99
+Sel keluar kapal: 0
 
 ID | Posisi (x, y, arah) | Dimensi (p, l) | Berat | Fee
 KDR001 | Tidak diangkut | (2, 1) | 4 | 50
-KDR002 | (9, 7, 'V') | (3, 2) | 5 | 70
-KDR003 | (15, 8, 'V') | (4, 3) | 7 | 100
-KDR004 | (7, 0, 'V') | (5, 4) | 6 | 80
+KDR002 | (15, 3, 'H') | (3, 2) | 5 | 70
+KDR003 | (16, 2, 'H') | (4, 3) | 7 | 100
+KDR004 | (0, 0, 'V') | (5, 4) | 6 | 80
 KDR005 | Tidak diangkut | (6, 5) | 5 | 80
-KDR006 | (2, 2, 'V') | (3, 1) | 7 | 90
-KDR007 | (1, 6, 'H') | (4, 2) | 8 | 80
-KDR008 | (1, 5, 'H') | (5, 3) | 4 | 20
-KDR009 | (11, 0, 'V') | (6, 4) | 5 | 70
-KDR010 | (2, 1, 'V') | (4, 1) | 7 | 60
-KDR011 | Tidak diangkut | (5, 2) | 8 | 100
-KDR012 | (10, 6, 'H') | (6, 3) | 4 | 90
-KDR013 | Tidak diangkut | (2, 1) | 3 | 60
-KDR014 | (15, 3, 'V') | (3, 2) | 5 | 70
-KDR015 | (6, 9, 'V') | (4, 3) | 6 | 60
-KDR016 | Tidak diangkut | (5, 4) | 7 | 90
-KDR017 | Tidak diangkut | (6, 5) | 9 | 30
-KDR018 | (6, 5, 'V') | (3, 1) | 2 | 60
-KDR019 | (13, 4, 'H') | (4, 2) | 4 | 20
-KDR020 | (16, 6, 'H') | (5, 3) | 6 | 80
-KDR021 | (12, 4, 'V') | (6, 4) | 7 | 70
-KDR022 | (5, 7, 'V') | (4, 1) | 9 | 40
-KDR023 | Tidak diangkut | (5, 2) | 8 | 90
-KDR024 | (16, 3, 'H') | (6, 3) | 3 | 60
-KDR025 | (19, 1, 'V') | (1, 1) | 2 | 40
-KDR026 | (11, 5, 'H') | (2, 2) | 5 | 30
-KDR027 | (9, 3, 'V') | (3, 3) | 7 | 100
-KDR028 | Tidak diangkut | (4, 4) | 4 | 60
-KDR029 | (5, 6, 'H') | (5, 5) | 6 | 40
+KDR006 | (4, 3, 'V') | (3, 1) | 7 | 90
+KDR007 | (13, 5, 'V') | (4, 2) | 8 | 80
+KDR008 | (14, 0, 'H') | (5, 3) | 4 | 20
+KDR009 | (11, 0, 'H') | (6, 4) | 5 | 70
+KDR010 | (0, 2, 'H') | (4, 1) | 7 | 60
+KDR011 | (3, 0, 'V') | (5, 2) | 8 | 100
+KDR012 | Tidak diangkut | (6, 3) | 4 | 90
+KDR013 | (12, 7, 'H') | (2, 1) | 3 | 60
+KDR014 | Tidak diangkut | (3, 2) | 5 | 70
+KDR015 | (7, 1, 'H') | (4, 3) | 6 | 60
+KDR016 | (2, 0, 'V') | (5, 4) | 7 | 90
+KDR017 | (3, 2, 'H') | (6, 5) | 9 | 30
+KDR018 | (9, 5, 'H') | (3, 1) | 2 | 60
+KDR019 | (10, 7, 'H') | (4, 2) | 4 | 20
+KDR020 | Tidak diangkut | (5, 3) | 6 | 80
+KDR021 | Tidak diangkut | (6, 4) | 7 | 70
+KDR022 | Tidak diangkut | (4, 1) | 9 | 40
+KDR023 | (0, 7, 'H') | (5, 2) | 8 | 90
+KDR024 | Tidak diangkut | (6, 3) | 3 | 60
+KDR025 | (18, 9, 'V') | (1, 1) | 2 | 40
+KDR026 | Tidak diangkut | (2, 2) | 5 | 30
+KDR027 | (5, 2, 'V') | (3, 3) | 7 | 100
+KDR028 | (11, 6, 'H') | (4, 4) | 4 | 60
+KDR029 | (7, 0, 'H') | (5, 5) | 6 | 40
 KDR030 | Tidak diangkut | (6, 6) | 9 | 80
 
 ### FINAL STATE ###
-Objective: 1260
-Total fee: 1260
+Objective: 1170
+Total fee: 1170
 Berat: 98/100
 Kelebihan kapasitas: 0
 Sel overlap: 0
 Sel keluar kapal: 0
 
 ID | Posisi (x, y, arah) | Dimensi (p, l) | Berat | Fee
-KDR001 | (14, 0, 'H') | (2, 1) | 4 | 50
-KDR002 | (6, 3, 'H') | (3, 2) | 5 | 70
-KDR003 | (16, 7, 'H') | (4, 3) | 7 | 100
-KDR004 | (10, 0, 'V') | (5, 4) | 6 | 80
+KDR001 | (19, 2, 'V') | (2, 1) | 4 | 50
+KDR002 | (13, 2, 'V') | (3, 2) | 5 | 70
+KDR003 | (9, 3, 'H') | (4, 3) | 7 | 100
+KDR004 | Tidak diangkut | (5, 4) | 6 | 80
 KDR005 | Tidak diangkut | (6, 5) | 5 | 80
-KDR006 | (10, 5, 'V') | (3, 1) | 7 | 90
-KDR007 | Tidak diangkut | (4, 2) | 8 | 80
+KDR006 | (13, 6, 'H') | (3, 1) | 7 | 90
+KDR007 | (2, 0, 'H') | (4, 2) | 8 | 80
 KDR008 | Tidak diangkut | (5, 3) | 4 | 20
 KDR009 | Tidak diangkut | (6, 4) | 5 | 70
-KDR010 | (15, 6, 'H') | (4, 1) | 7 | 60
-KDR011 | (14, 4, 'H') | (5, 2) | 8 | 100
-KDR012 | (3, 0, 'H') | (6, 3) | 4 | 90
-KDR013 | (0, 1, 'V') | (2, 1) | 3 | 60
-KDR014 | (14, 1, 'V') | (3, 2) | 5 | 70
+KDR010 | (2, 5, 'V') | (4, 1) | 7 | 60
+KDR011 | (0, 0, 'V') | (5, 2) | 8 | 100
+KDR012 | Tidak diangkut | (6, 3) | 4 | 90
+KDR013 | (6, 0, 'V') | (2, 1) | 3 | 60
+KDR014 | (8, 0, 'H') | (3, 2) | 5 | 70
 KDR015 | Tidak diangkut | (4, 3) | 6 | 60
 KDR016 | Tidak diangkut | (5, 4) | 7 | 90
 KDR017 | Tidak diangkut | (6, 5) | 9 | 30
-KDR018 | (11, 5, 'H') | (3, 1) | 2 | 60
-KDR019 | (4, 5, 'H') | (4, 2) | 4 | 20
-KDR020 | (11, 7, 'H') | (5, 3) | 6 | 80
-KDR021 | Tidak diangkut | (6, 4) | 7 | 70
-KDR022 | (9, 0, 'V') | (4, 1) | 9 | 40
-KDR023 | Tidak diangkut | (5, 2) | 8 | 90
-KDR024 | (1, 4, 'V') | (6, 3) | 3 | 60
-KDR025 | (5, 3, 'V') | (1, 1) | 2 | 40
-KDR026 | (8, 8, 'H') | (2, 2) | 5 | 30
-KDR027 | (4, 7, 'V') | (3, 3) | 7 | 100
-KDR028 | (16, 0, 'V') | (4, 4) | 4 | 60
+KDR018 | (2, 3, 'H') | (3, 1) | 2 | 60
+KDR019 | Tidak diangkut | (4, 2) | 4 | 20
+KDR020 | Tidak diangkut | (5, 3) | 6 | 80
+KDR021 | (5, 2, 'V') | (6, 4) | 7 | 70
+KDR022 | (12, 9, 'H') | (4, 1) | 9 | 40
+KDR023 | (3, 8, 'H') | (5, 2) | 8 | 90
+KDR024 | Tidak diangkut | (6, 3) | 3 | 60
+KDR025 | (17, 2, 'V') | (1, 1) | 2 | 40
+KDR026 | (0, 8, 'H') | (2, 2) | 5 | 30
+KDR027 | (9, 7, 'H') | (3, 3) | 7 | 100
+KDR028 | (16, 4, 'H') | (4, 4) | 4 | 60
 KDR029 | Tidak diangkut | (5, 5) | 6 | 40
 KDR030 | Tidak diangkut | (6, 6) | 9 | 80

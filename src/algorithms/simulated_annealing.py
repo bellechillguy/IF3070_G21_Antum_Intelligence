@@ -6,7 +6,7 @@ from utils import get_neighbors
 
 class SimulatedAnnealing:
     def __init__(self, initial_state, daftar_kendaraan, kapal,
-                 initial_temperature=1000, cooling_rate=0.995, minimum_temperature=0.1):
+                 initial_temperature=1000, cooling_rate=0.998, minimum_temperature=0.1):
         if not 0 < minimum_temperature < initial_temperature < math.inf:
             raise ValueError("Temperature harus bernilai positif dan minimum < initial")
         if not 0 < cooling_rate < 1:
